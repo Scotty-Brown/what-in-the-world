@@ -1,0 +1,23 @@
+header {
+    background-color: #314852;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h1 {
+    background-color: #314852;
+    margin-left: 10px;
+}
+
+.page-title-design-box {
+background-color: white;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.navlink {
+    color: white;
+    text-decoration: none;
+}
