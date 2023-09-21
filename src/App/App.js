@@ -1,16 +1,19 @@
 import './App.css';
 import Header from '../Header/Header';
 import Home from '../Home/Home';
+import AllCountries from '../AllCountries/AllCountriesContainer';
 import { NavLink } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import { fetchSimple } from '../apiCalls';
 
 function App() {
   const [homePreview, setHomePreview] = useState([])
+  const [countriesSimple, setCountriesSimple] = useState([])
 
   useEffect(() => {
     fetchSimple()
     .then(data => {
+      setCountriesSimple(data)
       const previewData = shuffleAndSlice(data)
       setHomePreview(previewData)
     })
@@ -33,7 +36,8 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Home homePreview={homePreview} />
+      {/* <Home homePreview={homePreview} /> */}
+      <AllCountries countriesSimple={countriesSimple} />
     </div>
   );
 }
