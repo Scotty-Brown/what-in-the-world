@@ -1,13 +1,15 @@
 import Hero from './Hero'
 import Highlight from './Highlight'
+import Preview from './Preview'
 
-function Home () {
+function Home ({homePreview}) {
 
 
     return (
         <div className="home-container">
             <Hero/>
-            <Highlight/>
+            <Highlight />
+            <Preview homePreview={homePreviews} />
         </div>
     )
 

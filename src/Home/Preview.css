@@ -1,0 +1,7 @@
+.preview-card-container {
+    margin-top: 150px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

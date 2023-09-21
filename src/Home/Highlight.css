@@ -27,16 +27,9 @@ img {
     margin-left: -100px;
 }
 
-/* .style-div {
-    background-color: #44606d9c;
-    border-radius: 45px;
-} */
-
 .learn-more {
     text-decoration: underline;
     color: white;
-
-    /* box-shadow: -20px -18px 20px 10px hsla(0,0%,13%,1); */
 }
 
 .learn-more:hover {

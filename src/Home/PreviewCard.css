@@ -1,0 +1,14 @@
+.preview-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.preview-card-name {
+    color: white;
+    font-size: 30px;
+}
+
+.preview-card:hover {
+    transform: scale(1.1);
+}
