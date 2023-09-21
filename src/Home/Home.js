@@ -9,7 +9,7 @@ function Home ({homePreview}) {
         <div className="home-container">
             <Hero/>
             <Highlight />
-            <Preview homePreview={homePreviews} />
+            <Preview homePreview={homePreview} />
         </div>
     )
 
