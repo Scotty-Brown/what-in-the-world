@@ -40,8 +40,8 @@ function App() {
         <Routes>
           <Route path='/' element={<Home homePreview={homePreview} />}/>
           <Route path='/allCountries' element={<AllCountries countriesSimple={countriesSimple} />} />
+          <Route path='/:id' element={<SingleCountry />} />
         </Routes>  
-        <SingleCountry />
     </div>
   );
 }
