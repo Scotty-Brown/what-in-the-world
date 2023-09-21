@@ -7,9 +7,9 @@ function Header() {
         <header className="header">
             <h1 className="page-title" >What in the world...</h1>
             <div className='header-nav'>
-            <NavLink to={'/'} className='navlink'>Home</NavLink>
-            <NavLink to={'/allCountries'} className='navlink'>All Countries</NavLink>
-            <NavLink className='navlink'>Favorite Countries</NavLink>
+            <NavLink to={'/'} className='navlink' >Home</NavLink>
+            <NavLink to={'/allCountries'} className='navlink' >All Countries</NavLink>
+            {/* <NavLink className='navlink' activeClassName="active">Favorite Countries</NavLink> */}
             </div>  
         </header>
     )
