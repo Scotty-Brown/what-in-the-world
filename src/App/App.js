@@ -2,6 +2,7 @@ import './App.css';
 import Header from '../Header/Header';
 import Home from '../Home/Home';
 import AllCountries from '../AllCountries/AllCountriesContainer';
+import SingleCountry from '../SingleCountry/SingleCountry';
 import { NavLink } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import { fetchSimple } from '../apiCalls';
@@ -23,7 +24,6 @@ function App() {
 
   function shuffleAndSlice(countryData) {
       const shuffledArray = [...countryData];
-
       // Fisher-Yates Shuffle
       for (let i = shuffledArray.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -41,6 +41,7 @@ function App() {
           <Route path='/' element={<Home homePreview={homePreview} />}/>
           <Route path='/allCountries' element={<AllCountries countriesSimple={countriesSimple} />} />
         </Routes>  
+        <SingleCountry />
     </div>
   );
 }
