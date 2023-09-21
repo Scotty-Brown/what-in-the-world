@@ -5,6 +5,7 @@ import AllCountries from '../AllCountries/AllCountriesContainer';
 import { NavLink } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import { fetchSimple } from '../apiCalls';
+import { Route, Routes  } from 'react-router-dom';
 
 function App() {
   const [homePreview, setHomePreview] = useState([])
@@ -36,8 +37,10 @@ function App() {
   return (
     <div className="App">
       <Header />
-      {/* <Home homePreview={homePreview} /> */}
-      <AllCountries countriesSimple={countriesSimple} />
+        <Routes>
+          <Route path='/' element={<Home homePreview={homePreview} />}/>
+          <Route path='/allCountries' element={<AllCountries countriesSimple={countriesSimple} />} />
+        </Routes>  
     </div>
   );
 }
