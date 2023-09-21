@@ -8,6 +8,8 @@
 
 .verbs {
     width: 100%;
+    /* text-shadow: 0 0 2px #000, 0 0 0.5em #000, -15px -7px 6px #000; */
+    text-shadow: 0 0 2px #000, 0 0 0.5em #000, 7px 7px 6px #000;
 }
 
 .one {
@@ -42,13 +44,16 @@
     width: 50vw;
     font-size: 30px;
     color: white;
-    padding-left: 50px;
+    /* padding-left: 50px; */
+    padding: 30px;
 }
 
 .statement-globe {
     display: flex;
     flex-direction: column;
     margin-right: 10em;
+    /* text-shadow: 0 0 2px #000, 0 0 0.5em #000, -3px -3px 6px #000; */
+    text-shadow: 0 0 2px #000, 0 0 0.5em #000, 7px 7px 6px #000;
 }
 
 .globe {

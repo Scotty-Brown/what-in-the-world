@@ -5,9 +5,9 @@ function Hero () {
         <div className="hero-container">
             <div className='verbs'>
             <h2 className='one'>Explore with us...</h2>
-            <h2 className='two'>Discover</h2>
-            <h2 className='three'>Learn</h2>
-            <h2 className='four'>Grow</h2>
+            <h2 className='two'>Discover 📖</h2>
+            <h2 className='three'>Learn 💡</h2>
+            <h2 className='four'>Grow 🪴</h2>
             </div>
             <div className='statement-globe'>
             <div className='globe'>🌎</div>
