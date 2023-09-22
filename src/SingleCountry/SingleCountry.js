@@ -1,239 +1,82 @@
 import { useEffect, useState } from 'react'
-import { fetchCountryDetails } from '../apiCalls'
+import { fetchCountryDetails, fetchBorderCountryNames } from '../apiCalls'
 import { useParams } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import './SingleCountry.css'
 
 function SingleCountry() {
     const [countryData, setCountryData] = useState({})
+    const [borderCountries, setBorderCountries] = useState([])
+    const [nativeLanguageCode, setNativeLanguageCode] = useState('')
+    const [currencyCode, setCurrencyCode] = useState('')
     const { id } = useParams()
 
     useEffect(() => {
         fetchCountryDetails(id)
-        .then(data => setCountryData(data[0]))
-        .catch(error => console.log(error))
-    }, [])
+            .then(data => {
+                setCountryData(data[0])
+                getNativeLanguageCode(data[0])
+                getCurrencyCode(data[0])
 
-    const officialName = countryData.name?.official || 'Loading...';
+                const borderString = data[0]?.borders?.join(',')
+                if (borderString) {
+                    fetchBorderCountryNames(borderString)
+                        .then(data => {
+                            getBorderCountryNames(data)
+                        })
+                        .catch(error => console.log(error))
+                    }
+                    
+                })
+                .catch(error => console.log(error))
+            }, [id])
+            
+    function getBorderCountryNames(data) {
+        const borderCountryCodes = data.map(country => country.name.common)
+        const borderCountryNames = borderCountryCodes.join(', ')
+        setBorderCountries(borderCountryNames)
+    }
+
+    function getNativeLanguageCode(data) {
+        const languageCode = Object.keys(data.name.nativeName)[0]
+        setNativeLanguageCode(languageCode)
+    }
+
+    function getCurrencyCode(data) {
+        const code = Object.keys(data.currencies)[0]
+        setCurrencyCode(code)
+    }
 
     return (
         <div className='country-details-container'>
-            <p>{officialName}</p>
+            {countryData && borderCountries && nativeLanguageCode && currencyCode && (
+                <>
+                    <div className='graphics-container'>
+                        <img alt={countryData.flags?.alt} src={countryData.flags?.png}></img>
+                        <img alt={countryData.coatOfArms?.alt} src={countryData.coatOfArms?.png}></img>
+                    </div>
+                    <div className='main-data-container'>
+                        <p>Common Name: {countryData.name?.common}</p>
+                        <p>Native Name: {countryData.name?.nativeName[nativeLanguageCode]?.official}</p>
+                        <p>Capital: {countryData.capital}</p>
+                        <p>Common Language Spoken: {countryData.languages[nativeLanguageCode]}</p>
+                        <p>Population: {countryData.population}</p>
+                        <p>Currencies: {countryData.currencies[currencyCode]?.name}</p>
+                        <p>Cars drive on the {countryData.car?.side} side of the road.</p>
+                    </div>
+                    <div className='graphical-data-container'>
+                        <p>Region: {countryData.region}</p>
+                        <p>Subregion: {countryData.subregion}</p>
+                        <p>Continent: {countryData.continents}</p>
+                        <p>Border Countries: {borderCountries} </p>
+                        <Link className='google-map' to={countryData.maps?.googleMaps} target='_blank' rel='noopener noreferrer'>
+                            View Location in Google Maps
+                        </Link>
+                    </div>
+                </>
+            )}
         </div>
     )
 }
 
 export default SingleCountry
-
-
-// [
-//     {
-//     "name": {
-//     "common": "Colombia",
-//     "official": "Republic of Colombia",
-//     "nativeName": {
-//     "spa": {
-//     "official": "República de Colombia",
-//     "common": "Colombia"
-//     }
-//     }
-//     },
-//     "tld": [
-//     ".co"
-//     ],
-//     "cca2": "CO",
-//     "ccn3": "170",
-//     "cca3": "COL",
-//     "cioc": "COL",
-//     "independent": true,
-//     "status": "officially-assigned",
-//     "unMember": true,
-//     "currencies": {
-//     "COP": {
-//     "name": "Colombian peso",
-//     "symbol": "$"
-//     }
-//     },
-//     "idd": {
-//     "root": "+5",
-//     "suffixes": [
-//     "7"
-//     ]
-//     },
-//     "capital": [
-//     "Bogotá"
-//     ],
-//     "altSpellings": [
-//     "CO",
-//     "Republic of Colombia",
-//     "República de Colombia"
-//     ],
-//     "region": "Americas",
-//     "subregion": "South America",
-//     "languages": {
-//     "spa": "Spanish"
-//     },
-//     "translations": {
-//     "ara": {
-//     "official": "جمهورية كولومبيا",
-//     "common": "كولومبيا"
-//     },
-//     "bre": {
-//     "official": "Republik Kolombia",
-//     "common": "Kolombia"
-//     },
-//     "ces": {
-//     "official": "Kolumbijská republika",
-//     "common": "Kolumbie"
-//     },
-//     "cym": {
-//     "official": "Gweriniaeth Colombia",
-//     "common": "Colombia"
-//     },
-//     "deu": {
-//     "official": "Republik Kolumbien",
-//     "common": "Kolumbien"
-//     },
-//     "est": {
-//     "official": "Colombia Vabariik",
-//     "common": "Colombia"
-//     },
-//     "fin": {
-//     "official": "Kolumbian tasavalta",
-//     "common": "Kolumbia"
-//     },
-//     "fra": {
-//     "official": "République de Colombie",
-//     "common": "Colombie"
-//     },
-//     "hrv": {
-//     "official": "Republika Kolumbija",
-//     "common": "Kolumbija"
-//     },
-//     "hun": {
-//     "official": "Kolumbiai Köztársaság",
-//     "common": "Kolumbia"
-//     },
-//     "ita": {
-//     "official": "Repubblica di Colombia",
-//     "common": "Colombia"
-//     },
-//     "jpn": {
-//     "official": "コロンビア共和国",
-//     "common": "コロンビア"
-//     },
-//     "kor": {
-//     "official": "콜롬비아 공화국",
-//     "common": "콜롬비아"
-//     },
-//     "nld": {
-//     "official": "Republiek Colombia",
-//     "common": "Colombia"
-//     },
-//     "per": {
-//     "official": "جمهوری کلمبیا",
-//     "common": "کلمبیا"
-//     },
-//     "pol": {
-//     "official": "Republika Kolumbii",
-//     "common": "Kolumbia"
-//     },
-//     "por": {
-//     "official": "República da Colômbia",
-//     "common": "Colômbia"
-//     },
-//     "rus": {
-//     "official": "Республика Колумбия",
-//     "common": "Колумбия"
-//     },
-//     "slk": {
-//     "official": "Kolumbijská republika",
-//     "common": "Kolumbia"
-//     },
-//     "spa": {
-//     "official": "República de Colombia",
-//     "common": "Colombia"
-//     },
-//     "srp": {
-//     "official": "Република Колумбија",
-//     "common": "Колумбија"
-//     },
-//     "swe": {
-//     "official": "Republiken Colombia",
-//     "common": "Colombia"
-//     },
-//     "tur": {
-//     "official": "Kolombiya Cumhuriyeti",
-//     "common": "Kolombiya"
-//     },
-//     "urd": {
-//     "official": "جمہوریہ کولمبیا",
-//     "common": "کولمبیا"
-//     },
-//     "zho": {
-//     "official": "哥伦比亚共和国",
-//     "common": "哥伦比亚"
-//     }
-//     },
-//     "latlng": [
-//     4,
-//     -72
-//     ],
-//     "landlocked": false,
-//     "borders": [
-//     "BRA",
-//     "ECU",
-//     "PAN",
-//     "PER",
-//     "VEN"
-//     ],
-//     "area": 1141748,
-//     "demonyms": {
-//     "eng": {
-//     "f": "Colombian",
-//     "m": "Colombian"
-//     },
-//     "fra": {
-//     "f": "Colombienne",
-//     "m": "Colombien"
-//     }
-//     },
-//     "flag": "🇨🇴",
-//     "maps": {
-//     "googleMaps": "https://goo.gl/maps/zix9qNFX69E9yZ2M6",
-//     "openStreetMaps": "https://www.openstreetmap.org/relation/120027"
-//     },
-//     "population": 50882884,
-//     "gini": {
-//     "2019": 51.3
-//     },
-//     "fifa": "COL",
-//     "car": {
-//     "signs": [
-//     "CO"
-//     ],
-//     "side": "right"
-//     },
-//     "timezones": [
-//     "UTC-05:00"
-//     ],
-//     "continents": [
-//     "South America"
-//     ],
-//     "flags": {
-//     "png": "https://flagcdn.com/w320/co.png",
-//     "svg": "https://flagcdn.com/co.svg",
-//     "alt": "The flag of Colombia is composed of three horizontal bands of yellow, blue and red, with the yellow band twice the height of the other two bands."
-//     },
-//     "coatOfArms": {
-//     "png": "https://mainfacts.com/media/images/coats_of_arms/co.png",
-//     "svg": "https://mainfacts.com/media/images/coats_of_arms/co.svg"
-//     },
-//     "startOfWeek": "monday",
-//     "capitalInfo": {
-//     "latlng": [
-//     4.71,
-//     -74.07
-//     ]
-//     }
-//     }
-//     ]
