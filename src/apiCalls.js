@@ -18,3 +18,14 @@ export function fetchCountryDetails(countryCode) {
                 return res.json()
             })
 }
+
+export function fetchBorderCountryNames(countryCodes) {
+    return fetch(`https://restcountries.com/v3.1/alpha?codes=${countryCodes}`)
+            .then(res => {
+                if(!res.ok) {
+                    throw new Error(`${res.status}`)
+                }
+
+                return res.json()
+            })
+}
