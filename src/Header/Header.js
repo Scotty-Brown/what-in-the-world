@@ -9,7 +9,6 @@ function Header() {
             <div className='header-nav'>
             <NavLink to={'/'} className='navlink' >Home</NavLink>
             <NavLink to={'/allCountries'} className='navlink' >All Countries</NavLink>
-            {/* <NavLink className='navlink' activeClassName="active">Favorite Countries</NavLink> */}
             </div>  
         </header>
     )
