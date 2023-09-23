@@ -36,11 +36,18 @@ img {
 }
 
 .learn-more {
+    box-shadow: inset 0px 1px 0px 0px #fce2c1;
+    background-color: #44606D;
+    border-radius: 11px;
+    border: 2px solid #000;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 8px 18px;
     text-decoration: none;
-    color: white;
-    font-size: 20px;
 }
 
 .learn-more:hover {
     transform: scale(1.1);
+    box-shadow: 14px 11px 20px 10px hsla(0,0%,13%,1);
 }

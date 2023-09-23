@@ -46,3 +46,7 @@ Cypress.Commands.add('austriaCheck', () => {
     cy.get('.graphical-data-container > :nth-child(4)').should('contain', 'Border Countries: Hungary, Slovenia, Switzerland, Czechia, Germany, Liechtenstein, Italy, Slovakia')
     cy.get('.google-map-link').should('contain', 'View Location in Google Maps')
 })
+
+// Cypress.Commands.add('errorCheck', () => {
+
+// })
