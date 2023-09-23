@@ -2,9 +2,10 @@ import { useEffect, useState } from 'react'
 import { fetchCountryDetails, fetchBorderCountryNames } from '../apiCalls'
 import { useParams } from 'react-router-dom'
 import { Link } from 'react-router-dom'
+import PropTypes from 'prop-types';
 import './SingleCountry.css'
 
-function SingleCountry() {
+function SingleCountry({setError}) {
     const [countryData, setCountryData] = useState({})
     const [borderCountries, setBorderCountries] = useState([])
     const [nativeLanguageCode, setNativeLanguageCode] = useState('')
@@ -24,10 +25,10 @@ function SingleCountry() {
                         .then(data => {
                             getBorderCountryNames(data)
                         })
-                        .catch(error => console.log(error))
+                        .catch(error => setError(error.message))
                     } 
                 })
-                .catch(error => console.log(error))
+                .catch(error => setError(error.message))
             }, [id])
             
     function getBorderCountryNames(data) {
@@ -97,3 +98,7 @@ function SingleCountry() {
 }
 
 export default SingleCountry
+
+SingleCountry.propTypes = {
+    setError: PropTypes.func.isRequired,
+}

@@ -9,7 +9,7 @@ export function fetchSimple() {
 }
 
 export function fetchCountryDetails(countryCode) {
-    return fetch(`https://restcountries.com/v3.1/alpha/${countryCode}`)
+    return fetch(`https://restcountries.clpha/${countryCode}`)
             .then(res => {
                 if(!res.ok) {
                     throw new Error(`${res.status}`)

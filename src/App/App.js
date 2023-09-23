@@ -3,14 +3,17 @@ import Header from '../Header/Header';
 import Home from '../Home/Home';
 import AllCountries from '../AllCountries/AllCountriesContainer';
 import SingleCountry from '../SingleCountry/SingleCountry';
+import ErrorCard from '../Error/Error';
 import { NavLink } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import { fetchSimple } from '../apiCalls';
-import { Route, Routes  } from 'react-router-dom';
+import { Route, Routes, useLocation  } from 'react-router-dom';
 
 function App() {
   const [homePreview, setHomePreview] = useState([])
   const [countriesSimple, setCountriesSimple] = useState([])
+  const [error, setError] = useState('')
+  const location = useLocation().pathname
 
   useEffect(() => {
     fetchSimple()
@@ -18,8 +21,12 @@ function App() {
       setCountriesSimple(data)
       grabPreviewSample(data)
     })
-    .catch(err => console.log(err))
+    .catch(err => setError(err.message))
   }, [])
+
+  useEffect(() => {
+    setError('')
+  }, [location])
 
   function grabPreviewSample(countryData) {
       const previewData = countryData.slice(0,3)
@@ -29,11 +36,11 @@ function App() {
   return (
     <div className="App">
       <Header />
-        <Routes>
-          <Route path='/' element={<Home homePreview={homePreview} />}/>
+        {!error ? <Routes>
+          <Route path='/' element={<Home homePreview={homePreview}/>}/>
           <Route path='/allCountries' element={<AllCountries countriesSimple={countriesSimple} />} />
-          <Route path='/:id' element={<SingleCountry />} />
-        </Routes>  
+          <Route path='/:id' element={<SingleCountry setError={setError} />} />
+        </Routes> : <ErrorCard />} 
     </div>
   );
 }
