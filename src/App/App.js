@@ -46,13 +46,11 @@ function App() {
               <AllCountries searchInput={searchInput} countriesSimple={countriesSimple} />
             </>} />
             <Route path='/:id' element={<SingleCountry setError={setError} />} />
+            <Route path='*' element={<ErrorCard />} />
           </Routes> 
-        : <ErrorCard error={error}/>} 
+        : <ErrorCard />} 
     </div>
   );
 }
 
 export default App;
-
-
-{/* <Route path='/' element={!error ? <Home homePreview={homePreview} /> : <ErrorCard error={error} />}/> */}
