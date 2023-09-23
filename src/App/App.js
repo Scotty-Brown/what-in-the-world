@@ -16,22 +16,14 @@ function App() {
     fetchSimple()
     .then(data => {
       setCountriesSimple(data)
-      const previewData = shuffleAndSlice(data)
-      setHomePreview(previewData)
+      grabPreviewSample(data)
     })
     .catch(err => console.log(err))
   }, [])
 
-  function shuffleAndSlice(countryData) {
-      const shuffledArray = [...countryData];
-      // Fisher-Yates Shuffle
-      for (let i = shuffledArray.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        const temp = shuffledArray[i];
-        shuffledArray[i] = shuffledArray[j];
-        shuffledArray[j] = temp;
-      }
-      return shuffledArray.slice(0, 3);
+  function grabPreviewSample(countryData) {
+      const previewData = countryData.slice(0,3)
+      setHomePreview(previewData)
   }
 
   return (
