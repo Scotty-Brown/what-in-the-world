@@ -2,8 +2,10 @@ import PreviewCard from '../Home/PreviewCard'
 import './AllCountriesContainer.css'
 import PropTypes from 'prop-types'
 
-function AllCountries({countriesSimple}) {
-    const allCountriesContainer = countriesSimple && countriesSimple.map(country => {
+function AllCountries({countriesSimple, searchInput}) {
+    const allCountriesContainer = countriesSimple && countriesSimple
+    .filter(country => country.name.common.toLowerCase().includes(searchInput.toLowerCase()))
+    .map(country => {
         return (
             <PreviewCard
                     key={country.ccn3}
