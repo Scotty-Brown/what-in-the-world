@@ -2,6 +2,7 @@ import Hero from './Hero'
 import Highlight from './Highlight'
 import Preview from './Preview'
 import PropTypes from 'prop-types'
+import './Home.css'
 
 function Home ({homePreview}) {
 

@@ -7,7 +7,7 @@ function Highlight () {
 
         return (
             <div className="highlight-container">
-                <img src={HighlightImage}></img>
+                <img src={HighlightImage} alt='Lisob Portugal highlight'></img>
                 <div className='location-link'>
                     <h2 className='highlight-location'>📍Lisbon, Portugal</h2>
                     <Link to={'/620'} className='learn-more'>Learn More About Portugal!</Link>

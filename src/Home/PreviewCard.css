@@ -22,3 +22,10 @@
     transform: scale(1.1);
     box-shadow: 0px 0px 5px 5px #1b9cd8;
 }
+
+@media screen and (max-width: 545px) {
+    .preview-card {
+        width: 20em;
+        
+    }
+}
