@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import './PreviewCard.css'
+import PropTypes from 'prop-types'
 
 function PreviewCard({name, flag, id, alt}) {
     return (
@@ -13,3 +14,10 @@ function PreviewCard({name, flag, id, alt}) {
 }
 
 export default PreviewCard
+
+PreviewCard.propTypes = {
+    name: PropTypes.string,
+    flag: PropTypes.string,
+    id: PropTypes.string,
+    alt: PropTypes.string,
+  }
