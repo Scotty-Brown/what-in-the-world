@@ -4,6 +4,7 @@ import Home from '../Home/Home';
 import AllCountries from '../AllCountries/AllCountriesContainer';
 import SingleCountry from '../SingleCountry/SingleCountry';
 import ErrorCard from '../Error/Error';
+import Search from '../Search/SearchCountry';
 import { NavLink } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import { fetchSimple } from '../apiCalls';
@@ -14,6 +15,7 @@ function App() {
   const [countriesSimple, setCountriesSimple] = useState([])
   const [error, setError] = useState('')
   const location = useLocation().pathname
+  const [searchInput, setSearchInput] = useState('')
 
   useEffect(() => {
     fetchSimple()
@@ -39,7 +41,10 @@ function App() {
         {!error ? 
           <Routes>
             <Route path='/' element={<Home homePreview={homePreview}/>}/>
-            <Route path='/allCountries' element={<AllCountries countriesSimple={countriesSimple} />} />
+            <Route path='/allCountries' element={<>
+              <Search setSearchInput={setSearchInput}/>
+              <AllCountries searchInput={searchInput} countriesSimple={countriesSimple} />
+            </>} />
             <Route path='/:id' element={<SingleCountry setError={setError} />} />
           </Routes> 
         : <ErrorCard error={error}/>} 
