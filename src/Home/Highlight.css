@@ -9,6 +9,7 @@
     padding-top: 3em;
     padding-bottom: 3em;
     background-color: #44606d7d;
+    box-shadow: 17px 3px 20px 0px #1b9cd8;
 }
 
 img {
@@ -20,7 +21,7 @@ img {
     color: white;
     font-size: 55px;
     padding: 35px;
-    background: linear-gradient(to bottom, #0729386e, #0c4965);
+    background: linear-gradient(to right, #0729386e, #1475a2);
     box-shadow: 14px 11px 20px 10px hsla(0,0%,13%,1);
     border-radius: 20px;
 }
@@ -34,7 +35,7 @@ img {
 }
 
 .learn-more {
-    background: linear-gradient(to bottom, #0729386e, #0c4965);
+    background: linear-gradient(to right, #0729386e, #1475a2);
     border-radius: 11px;
     border: 2px solid #000;
     color: #ffffff;
