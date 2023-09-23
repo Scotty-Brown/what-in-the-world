@@ -8,12 +8,12 @@ function Search({setSearchInput}) {
 
     return (
         <section className='search-container'>
-            <label htmlFor='search' ></label>
+            <label className='search-label' htmlFor='search' >Search for a country: </label>
             <input
                 id='search'
                 className='search-input'
                 type='text'
-                placeholder='Search For A Country'
+                placeholder='Enter country'
                 onChange={handleChange}
             />
         </section>
