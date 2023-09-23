@@ -1,14 +1,19 @@
 .hero-container {
-    margin-top: 150px;
+    margin-top: 200px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    margin-right: 3em;
+    margin-left: 3em;
+    border-top: 10px solid #00000070;;
+    border-bottom: 10px solid #00000070;;
+    background-color: #44606d7d;
 }
+
 
 .verbs {
     width: 100%;
-    /* text-shadow: 0 0 2px #000, 0 0 0.5em #000, -15px -7px 6px #000; */
     text-shadow: 0 0 2px #000, 0 0 0.5em #000, 7px 7px 6px #000;
 }
 
@@ -44,16 +49,13 @@
     width: 50vw;
     font-size: 30px;
     color: white;
-    /* padding-left: 50px; */
-    padding: 30px;
 }
 
 .statement-globe {
     display: flex;
     flex-direction: column;
-    margin-right: 10em;
-    /* text-shadow: 0 0 2px #000, 0 0 0.5em #000, -3px -3px 6px #000; */
     text-shadow: 0 0 2px #000, 0 0 0.5em #000, 7px 7px 6px #000;
+    margin-right: 5em;
 }
 
 .globe {
