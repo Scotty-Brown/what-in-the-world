@@ -44,6 +44,7 @@ describe('Home Spec', () => {
     cy.get('.learn-more').should('contain', 'Learn More About Portugal!').click().wait('@portugalData')
     cy.wait('@portugalBorderCo')
     cy.url().should('eq', 'http://localhost:3000/620')
+    cy.portugalCheck()
   })
 
   it('Preview Component', () => {

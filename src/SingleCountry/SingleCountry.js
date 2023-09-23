@@ -58,11 +58,11 @@ function SingleCountry() {
             <>
                 <div className='graphics-container'>
                     <p className='graphic-title'>{countryData.name?.common} Flag</p>
-                    <img alt={countryData.flags?.alt} src={countryData.flags?.png}></img>
+                    <img className='country-flag' alt={countryData.flags?.alt || 'Picture of countries flag'} src={countryData.flags?.png}></img>
                     {countryData.coatOfArms?.png && (
                         <>
                             <p className='graphic-title'>{countryData.name?.common} Coat of Arms</p>
-                            <img alt={countryData.coatOfArms?.alt} src={countryData.coatOfArms?.png}></img>
+                            <img className='country-coa' alt={countryData.coatOfArms?.alt || 'Picture of countries coat of arms'} src={countryData.coatOfArms?.png}></img>
                         </>
                     )}
                 </div>

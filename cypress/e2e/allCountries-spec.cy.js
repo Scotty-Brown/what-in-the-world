@@ -49,8 +49,7 @@ describe('All Countries Spec', () => {
     cy.wait('@austriaBorderData')
 
     cy.url().should('eq', 'http://localhost:3000/040')
-    cy.get('.main-data-container > :nth-child(1)').should('contain', 'Common Name: Austria')
-    cy.get('.graphical-data-container > :nth-child(4)').should('contain', 'Border Countries: Hungary, Slovenia, Switzerland, Czechia, Germany, Liechtenstein, Italy, Slovakia')
+    cy.austriaCheck()
 
   })
 
