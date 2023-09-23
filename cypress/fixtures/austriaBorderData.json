@@ -1,0 +1,1734 @@
+[
+{
+    "name": {
+    "common": "Hungary",
+    "official": "Hungary",
+    "nativeName": {
+    "hun": {
+    "official": "Magyarország",
+    "common": "Magyarország"
+    }
+    }
+    },
+    "tld": [
+    ".hu"
+    ],
+    "cca2": "HU",
+    "ccn3": "348",
+    "cca3": "HUN",
+    "cioc": "HUN",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "currencies": {
+    "HUF": {
+    "name": "Hungarian forint",
+    "symbol": "Ft"
+    }
+    },
+    "idd": {
+    "root": "+3",
+    "suffixes": [
+    "6"
+    ]
+    },
+    "capital": [
+    "Budapest"
+    ],
+    "altSpellings": [
+    "HU"
+    ],
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "languages": {
+    "hun": "Hungarian"
+    },
+    "translations": {
+    "ara": {
+    "official": "الجمهورية المجرية",
+    "common": "المجر"
+    },
+    "bre": {
+    "official": "Hungaria",
+    "common": "Hungaria"
+    },
+    "ces": {
+    "official": "Maďarsko",
+    "common": "Maďarsko"
+    },
+    "cym": {
+    "official": "Hungary",
+    "common": "Hungary"
+    },
+    "deu": {
+    "official": "Ungarn",
+    "common": "Ungarn"
+    },
+    "est": {
+    "official": "Ungari",
+    "common": "Ungari"
+    },
+    "fin": {
+    "official": "Unkari",
+    "common": "Unkari"
+    },
+    "fra": {
+    "official": "Hongrie",
+    "common": "Hongrie"
+    },
+    "hrv": {
+    "official": "Madžarska",
+    "common": "Mađarska"
+    },
+    "hun": {
+    "official": "Magyarország",
+    "common": "Magyarország"
+    },
+    "ita": {
+    "official": "Ungheria",
+    "common": "Ungheria"
+    },
+    "jpn": {
+    "official": "ハンガリー",
+    "common": "ハンガリー"
+    },
+    "kor": {
+    "official": "헝가리",
+    "common": "헝가리"
+    },
+    "nld": {
+    "official": "Hongarije",
+    "common": "Hongarije"
+    },
+    "per": {
+    "official": "مجارستان",
+    "common": "مجارستان"
+    },
+    "pol": {
+    "official": "Węgry",
+    "common": "Węgry"
+    },
+    "por": {
+    "official": "Hungria",
+    "common": "Hungria"
+    },
+    "rus": {
+    "official": "Венгрия",
+    "common": "Венгрия"
+    },
+    "slk": {
+    "official": "Maďarsko",
+    "common": "Maďarsko"
+    },
+    "spa": {
+    "official": "Hungría",
+    "common": "Hungría"
+    },
+    "srp": {
+    "official": "Мађарска",
+    "common": "Мађарска"
+    },
+    "swe": {
+    "official": "Ungern",
+    "common": "Ungern"
+    },
+    "tur": {
+    "official": "Macaristan",
+    "common": "Macaristan"
+    },
+    "urd": {
+    "official": "مجارستان",
+    "common": "مجارستان"
+    },
+    "zho": {
+    "official": "匈牙利",
+    "common": "匈牙利"
+    }
+    },
+    "latlng": [
+    47,
+    20
+    ],
+    "landlocked": true,
+    "borders": [
+    "AUT",
+    "HRV",
+    "ROU",
+    "SRB",
+    "SVK",
+    "SVN",
+    "UKR"
+    ],
+    "area": 93028,
+    "demonyms": {
+    "eng": {
+    "f": "Hungarian",
+    "m": "Hungarian"
+    },
+    "fra": {
+    "f": "Hongroise",
+    "m": "Hongrois"
+    }
+    },
+    "flag": "🇭🇺",
+    "maps": {
+    "googleMaps": "https://goo.gl/maps/9gfPupm5bffixiFJ6",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/21335"
+    },
+    "population": 9749763,
+    "gini": {
+    "2018": 29.6
+    },
+    "fifa": "HUN",
+    "car": {
+    "signs": [
+    "H"
+    ],
+    "side": "right"
+    },
+    "timezones": [
+    "UTC+01:00"
+    ],
+    "continents": [
+    "Europe"
+    ],
+    "flags": {
+    "png": "https://flagcdn.com/w320/hu.png",
+    "svg": "https://flagcdn.com/hu.svg",
+    "alt": "The flag of Hungary is composed of three equal horizontal bands of red, white and green."
+    },
+    "coatOfArms": {
+    "png": "https://mainfacts.com/media/images/coats_of_arms/hu.png",
+    "svg": "https://mainfacts.com/media/images/coats_of_arms/hu.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+    "latlng": [
+    47.5,
+    19.08
+    ]
+    },
+    "postalCode": {
+    "format": "####",
+    "regex": "^(\\d{4})$"
+    }
+    },
+    {
+    "name": {
+    "common": "Slovenia",
+    "official": "Republic of Slovenia",
+    "nativeName": {
+    "slv": {
+    "official": "Republika Slovenija",
+    "common": "Slovenija"
+    }
+    }
+    },
+    "tld": [
+    ".si"
+    ],
+    "cca2": "SI",
+    "ccn3": "705",
+    "cca3": "SVN",
+    "cioc": "SLO",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "currencies": {
+    "EUR": {
+    "name": "Euro",
+    "symbol": "€"
+    }
+    },
+    "idd": {
+    "root": "+3",
+    "suffixes": [
+    "86"
+    ]
+    },
+    "capital": [
+    "Ljubljana"
+    ],
+    "altSpellings": [
+    "SI",
+    "Republic of Slovenia",
+    "Republika Slovenija"
+    ],
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "languages": {
+    "slv": "Slovene"
+    },
+    "translations": {
+    "ara": {
+    "official": "جمهورية سلوفينيا",
+    "common": "سلوفينيا"
+    },
+    "bre": {
+    "official": "Republik Slovenia",
+    "common": "Slovenia"
+    },
+    "ces": {
+    "official": "Slovinská republika",
+    "common": "Slovinsko"
+    },
+    "cym": {
+    "official": "Republic of Slovenia",
+    "common": "Slovenia"
+    },
+    "deu": {
+    "official": "Republik Slowenien",
+    "common": "Slowenien"
+    },
+    "est": {
+    "official": "Sloveenia Vabariik",
+    "common": "Sloveenia"
+    },
+    "fin": {
+    "official": "Slovenian tasavalta",
+    "common": "Slovenia"
+    },
+    "fra": {
+    "official": "République de Slovénie",
+    "common": "Slovénie"
+    },
+    "hrv": {
+    "official": "Republika Slovenija",
+    "common": "Slovenija"
+    },
+    "hun": {
+    "official": "Szlovén Köztársaság",
+    "common": "Szlovénia"
+    },
+    "ita": {
+    "official": "Repubblica di Slovenia",
+    "common": "Slovenia"
+    },
+    "jpn": {
+    "official": "スロベニア共和国",
+    "common": "スロベニア"
+    },
+    "kor": {
+    "official": "슬로베니아 공화국",
+    "common": "슬로베니아"
+    },
+    "nld": {
+    "official": "Republiek Slovenië",
+    "common": "Slovenië"
+    },
+    "per": {
+    "official": "جمهوری اسلوونی",
+    "common": "اسلوونی"
+    },
+    "pol": {
+    "official": "Republika Słowenii",
+    "common": "Słowenia"
+    },
+    "por": {
+    "official": "República da Eslovénia",
+    "common": "Eslovénia"
+    },
+    "rus": {
+    "official": "Республика Словения",
+    "common": "Словения"
+    },
+    "slk": {
+    "official": "Slovinská republika",
+    "common": "Slovinsko"
+    },
+    "spa": {
+    "official": "República de Eslovenia",
+    "common": "Eslovenia"
+    },
+    "srp": {
+    "official": "Република Словенија",
+    "common": "Словенија"
+    },
+    "swe": {
+    "official": "Republiken Slovenien",
+    "common": "Slovenien"
+    },
+    "tur": {
+    "official": "Slovenya Cumhuriyeti",
+    "common": "Slovenya"
+    },
+    "urd": {
+    "official": "جمہوریہ سلووینیا",
+    "common": "سلووینیا"
+    },
+    "zho": {
+    "official": "斯洛文尼亚共和国",
+    "common": "斯洛文尼亚"
+    }
+    },
+    "latlng": [
+    46.11666666,
+    14.81666666
+    ],
+    "landlocked": false,
+    "borders": [
+    "AUT",
+    "HRV",
+    "ITA",
+    "HUN"
+    ],
+    "area": 20273,
+    "demonyms": {
+    "eng": {
+    "f": "Slovene",
+    "m": "Slovene"
+    },
+    "fra": {
+    "f": "Slovène",
+    "m": "Slovène"
+    }
+    },
+    "flag": "🇸🇮",
+    "maps": {
+    "googleMaps": "https://goo.gl/maps/7zgFmswcCJh5L5D49",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/218657"
+    },
+    "population": 2100126,
+    "gini": {
+    "2018": 24.6
+    },
+    "fifa": "SVN",
+    "car": {
+    "signs": [
+    "SLO"
+    ],
+    "side": "right"
+    },
+    "timezones": [
+    "UTC+01:00"
+    ],
+    "continents": [
+    "Europe"
+    ],
+    "flags": {
+    "png": "https://flagcdn.com/w320/si.png",
+    "svg": "https://flagcdn.com/si.svg",
+    "alt": "The flag of Slovenia is composed of three equal horizontal bands of white, blue and red. The national coat of arms is situated in the upper hoist side of the field centered on the boundary between the white and blue bands."
+    },
+    "coatOfArms": {
+    "png": "https://mainfacts.com/media/images/coats_of_arms/si.png",
+    "svg": "https://mainfacts.com/media/images/coats_of_arms/si.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+    "latlng": [
+    46.05,
+    14.52
+    ]
+    },
+    "postalCode": {
+    "format": "SI- ####",
+    "regex": "^(?:SI)*(\\d{4})$"
+    }
+    },
+    {
+    "name": {
+    "common": "Switzerland",
+    "official": "Swiss Confederation",
+    "nativeName": {
+    "fra": {
+    "official": "Confédération suisse",
+    "common": "Suisse"
+    },
+    "gsw": {
+    "official": "Schweizerische Eidgenossenschaft",
+    "common": "Schweiz"
+    },
+    "ita": {
+    "official": "Confederazione Svizzera",
+    "common": "Svizzera"
+    },
+    "roh": {
+    "official": "Confederaziun svizra",
+    "common": "Svizra"
+    }
+    }
+    },
+    "tld": [
+    ".ch"
+    ],
+    "cca2": "CH",
+    "ccn3": "756",
+    "cca3": "CHE",
+    "cioc": "SUI",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "currencies": {
+    "CHF": {
+    "name": "Swiss franc",
+    "symbol": "Fr."
+    }
+    },
+    "idd": {
+    "root": "+4",
+    "suffixes": [
+    "1"
+    ]
+    },
+    "capital": [
+    "Bern"
+    ],
+    "altSpellings": [
+    "CH",
+    "Swiss Confederation",
+    "Schweiz",
+    "Suisse",
+    "Svizzera",
+    "Svizra"
+    ],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "languages": {
+    "fra": "French",
+    "gsw": "Swiss German",
+    "ita": "Italian",
+    "roh": "Romansh"
+    },
+    "translations": {
+    "ara": {
+    "official": "الاتحاد السويسري",
+    "common": "سويسرا"
+    },
+    "bre": {
+    "official": "Kengevredad Suis",
+    "common": "Suis"
+    },
+    "ces": {
+    "official": "Švýcarská konfederace",
+    "common": "Švýcarsko"
+    },
+    "cym": {
+    "official": "Swiss Confederation",
+    "common": "Switzerland"
+    },
+    "deu": {
+    "official": "Schweizerische Eidgenossenschaft",
+    "common": "Schweiz"
+    },
+    "est": {
+    "official": "Šveitsi Konföderatsioon",
+    "common": "Šveits"
+    },
+    "fin": {
+    "official": "Sveitsin valaliitto",
+    "common": "Sveitsi"
+    },
+    "fra": {
+    "official": "Confédération suisse",
+    "common": "Suisse"
+    },
+    "hrv": {
+    "official": "švicarska Konfederacija",
+    "common": "Švicarska"
+    },
+    "hun": {
+    "official": "Svájc",
+    "common": "Svájc"
+    },
+    "ita": {
+    "official": "Confederazione svizzera",
+    "common": "Svizzera"
+    },
+    "jpn": {
+    "official": "スイス連邦",
+    "common": "スイス"
+    },
+    "kor": {
+    "official": "스위스 연방",
+    "common": "스위스"
+    },
+    "nld": {
+    "official": "Zwitserse Confederatie",
+    "common": "Zwitserland"
+    },
+    "per": {
+    "official": "کنفدراسیون سوئیس",
+    "common": "سوئیس"
+    },
+    "pol": {
+    "official": "Konfederacja Szwajcarska",
+    "common": "Szwajcaria"
+    },
+    "por": {
+    "official": "Confederação Suíça",
+    "common": "Suíça"
+    },
+    "rus": {
+    "official": "Швейцарская Конфедерация",
+    "common": "Швейцария"
+    },
+    "slk": {
+    "official": "Švajčiarska konfederácia",
+    "common": "Švajčiarsko"
+    },
+    "spa": {
+    "official": "Confederación Suiza",
+    "common": "Suiza"
+    },
+    "srp": {
+    "official": "Швајцарска Конфедерација",
+    "common": "Швајцарска"
+    },
+    "swe": {
+    "official": "Schweiziska edsförbundet",
+    "common": "Schweiz"
+    },
+    "tur": {
+    "official": "İsviçre Konfederasyonu",
+    "common": "İsviçre"
+    },
+    "urd": {
+    "official": "سوئیس  متحدہ",
+    "common": "سویٹذرلینڈ"
+    },
+    "zho": {
+    "official": "瑞士联邦",
+    "common": "瑞士"
+    }
+    },
+    "latlng": [
+    47,
+    8
+    ],
+    "landlocked": true,
+    "borders": [
+    "AUT",
+    "FRA",
+    "ITA",
+    "LIE",
+    "DEU"
+    ],
+    "area": 41284,
+    "demonyms": {
+    "eng": {
+    "f": "Swiss",
+    "m": "Swiss"
+    },
+    "fra": {
+    "f": "Suisse",
+    "m": "Suisse"
+    }
+    },
+    "flag": "🇨🇭",
+    "maps": {
+    "googleMaps": "https://goo.gl/maps/uVuZcXaxSx5jLyEC9",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/51701"
+    },
+    "population": 8654622,
+    "gini": {
+    "2018": 33.1
+    },
+    "fifa": "SUI",
+    "car": {
+    "signs": [
+    "CH"
+    ],
+    "side": "right"
+    },
+    "timezones": [
+    "UTC+01:00"
+    ],
+    "continents": [
+    "Europe"
+    ],
+    "flags": {
+    "png": "https://flagcdn.com/w320/ch.png",
+    "svg": "https://flagcdn.com/ch.svg",
+    "alt": "The flag of Switzerland is square shaped. It features a white Swiss cross centered on a red field."
+    },
+    "coatOfArms": {
+    "png": "https://mainfacts.com/media/images/coats_of_arms/ch.png",
+    "svg": "https://mainfacts.com/media/images/coats_of_arms/ch.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+    "latlng": [
+    46.92,
+    7.47
+    ]
+    },
+    "postalCode": {
+    "format": "####",
+    "regex": "^(\\d{4})$"
+    }
+    },
+    {
+    "name": {
+    "common": "Czechia",
+    "official": "Czech Republic",
+    "nativeName": {
+    "ces": {
+    "official": "Česká republika",
+    "common": "Česko"
+    },
+    "slk": {
+    "official": "Česká republika",
+    "common": "Česko"
+    }
+    }
+    },
+    "tld": [
+    ".cz"
+    ],
+    "cca2": "CZ",
+    "ccn3": "203",
+    "cca3": "CZE",
+    "cioc": "CZE",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "currencies": {
+    "CZK": {
+    "name": "Czech koruna",
+    "symbol": "Kč"
+    }
+    },
+    "idd": {
+    "root": "+4",
+    "suffixes": [
+    "20"
+    ]
+    },
+    "capital": [
+    "Prague"
+    ],
+    "altSpellings": [
+    "CZ",
+    "Česká republika",
+    "Česko"
+    ],
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "languages": {
+    "ces": "Czech",
+    "slk": "Slovak"
+    },
+    "translations": {
+    "ara": {
+    "official": "جمهورية التشيك",
+    "common": "التشيك"
+    },
+    "bre": {
+    "official": "Republik Tchek",
+    "common": "Tchekia"
+    },
+    "ces": {
+    "official": "Česká republika",
+    "common": "Česko"
+    },
+    "cym": {
+    "official": "Y Weriniaeth Tsiec",
+    "common": "Y Weriniaeth Tsiec"
+    },
+    "deu": {
+    "official": "Tschechische Republik",
+    "common": "Tschechien"
+    },
+    "est": {
+    "official": "Tšehhi Vabariik",
+    "common": "Tšehhi"
+    },
+    "fin": {
+    "official": "Tšekin tasavalta",
+    "common": "Tšekki"
+    },
+    "fra": {
+    "official": "République tchèque",
+    "common": "Tchéquie"
+    },
+    "hrv": {
+    "official": "Češka",
+    "common": "Češka"
+    },
+    "hun": {
+    "official": "Cseh Köztársaság",
+    "common": "Csehország"
+    },
+    "ita": {
+    "official": "Repubblica Ceca",
+    "common": "Cechia"
+    },
+    "jpn": {
+    "official": "チェコ共和国",
+    "common": "チェコ"
+    },
+    "kor": {
+    "official": "체코",
+    "common": "체코"
+    },
+    "nld": {
+    "official": "Tsjechische Republiek",
+    "common": "Tsjechië"
+    },
+    "per": {
+    "official": "جمهوری چک",
+    "common": "جمهوری چک"
+    },
+    "pol": {
+    "official": "Republika Czeska",
+    "common": "Czechy"
+    },
+    "por": {
+    "official": "República Checa",
+    "common": "Chéquia"
+    },
+    "rus": {
+    "official": "Чешская Республика",
+    "common": "Чехия"
+    },
+    "slk": {
+    "official": "Česká republika",
+    "common": "Česko"
+    },
+    "spa": {
+    "official": "República Checa",
+    "common": "Chequia"
+    },
+    "srp": {
+    "official": "Чешка Република",
+    "common": "Чешка"
+    },
+    "swe": {
+    "official": "Republiken Tjeckien",
+    "common": "Tjeckien"
+    },
+    "tur": {
+    "official": "Çek Cumhuriyeti",
+    "common": "Çekya"
+    },
+    "urd": {
+    "official": "چيک جمہوريہ",
+    "common": "چيک"
+    },
+    "zho": {
+    "official": "捷克共和国",
+    "common": "捷克"
+    }
+    },
+    "latlng": [
+    49.75,
+    15.5
+    ],
+    "landlocked": true,
+    "borders": [
+    "AUT",
+    "DEU",
+    "POL",
+    "SVK"
+    ],
+    "area": 78865,
+    "demonyms": {
+    "eng": {
+    "f": "Czech",
+    "m": "Czech"
+    },
+    "fra": {
+    "f": "Tchèque",
+    "m": "Tchèque"
+    }
+    },
+    "flag": "🇨🇿",
+    "maps": {
+    "googleMaps": "https://goo.gl/maps/47dmgeXMZyhDHyQW8",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/51684"
+    },
+    "population": 10698896,
+    "gini": {
+    "2018": 25
+    },
+    "fifa": "CZE",
+    "car": {
+    "signs": [
+    "CZ"
+    ],
+    "side": "right"
+    },
+    "timezones": [
+    "UTC+01:00"
+    ],
+    "continents": [
+    "Europe"
+    ],
+    "flags": {
+    "png": "https://flagcdn.com/w320/cz.png",
+    "svg": "https://flagcdn.com/cz.svg",
+    "alt": "The flag of Czechia is composed of two equal horizontal bands of white and red, with a blue isosceles triangle superimposed on the hoist side of the field. The triangle has its base on the hoist end and spans about two-fifth the width of the field."
+    },
+    "coatOfArms": {
+    "png": "https://mainfacts.com/media/images/coats_of_arms/cz.png",
+    "svg": "https://mainfacts.com/media/images/coats_of_arms/cz.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+    "latlng": [
+    50.08,
+    14.47
+    ]
+    },
+    "postalCode": {
+    "format": "### ##",
+    "regex": "^(\\d{5})$"
+    }
+    },
+    {
+    "name": {
+    "common": "Germany",
+    "official": "Federal Republic of Germany",
+    "nativeName": {
+    "deu": {
+    "official": "Bundesrepublik Deutschland",
+    "common": "Deutschland"
+    }
+    }
+    },
+    "tld": [
+    ".de"
+    ],
+    "cca2": "DE",
+    "ccn3": "276",
+    "cca3": "DEU",
+    "cioc": "GER",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "currencies": {
+    "EUR": {
+    "name": "Euro",
+    "symbol": "€"
+    }
+    },
+    "idd": {
+    "root": "+4",
+    "suffixes": [
+    "9"
+    ]
+    },
+    "capital": [
+    "Berlin"
+    ],
+    "altSpellings": [
+    "DE",
+    "Federal Republic of Germany",
+    "Bundesrepublik Deutschland"
+    ],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "languages": {
+    "deu": "German"
+    },
+    "translations": {
+    "ara": {
+    "official": "جمهورية ألمانيا الاتحادية",
+    "common": "ألمانيا"
+    },
+    "bre": {
+    "official": "Republik Kevreadel Alamagn",
+    "common": "Alamagn"
+    },
+    "ces": {
+    "official": "Spolková republika Německo",
+    "common": "Německo"
+    },
+    "cym": {
+    "official": "Federal Republic of Germany",
+    "common": "Germany"
+    },
+    "deu": {
+    "official": "Bundesrepublik Deutschland",
+    "common": "Deutschland"
+    },
+    "est": {
+    "official": "Saksamaa Liitvabariik",
+    "common": "Saksamaa"
+    },
+    "fin": {
+    "official": "Saksan liittotasavalta",
+    "common": "Saksa"
+    },
+    "fra": {
+    "official": "République fédérale d'Allemagne",
+    "common": "Allemagne"
+    },
+    "hrv": {
+    "official": "Njemačka Federativna Republika",
+    "common": "Njemačka"
+    },
+    "hun": {
+    "official": "Német Szövetségi Köztársaság",
+    "common": "Németország"
+    },
+    "ita": {
+    "official": "Repubblica federale di Germania",
+    "common": "Germania"
+    },
+    "jpn": {
+    "official": "ドイツ連邦共和国",
+    "common": "ドイツ"
+    },
+    "kor": {
+    "official": "독일 연방 공화국",
+    "common": "독일"
+    },
+    "nld": {
+    "official": "Bondsrepubliek Duitsland",
+    "common": "Duitsland"
+    },
+    "per": {
+    "official": "جمهوری فدرال آلمان",
+    "common": "آلمان"
+    },
+    "pol": {
+    "official": "Republika Federalna Niemiec",
+    "common": "Niemcy"
+    },
+    "por": {
+    "official": "República Federal da Alemanha",
+    "common": "Alemanha"
+    },
+    "rus": {
+    "official": "Федеративная Республика Германия",
+    "common": "Германия"
+    },
+    "slk": {
+    "official": "Nemecká spolková republika",
+    "common": "Nemecko"
+    },
+    "spa": {
+    "official": "República Federal de Alemania",
+    "common": "Alemania"
+    },
+    "srp": {
+    "official": "Савезна Република Немачка",
+    "common": "Немачка"
+    },
+    "swe": {
+    "official": "Förbundsrepubliken Tyskland",
+    "common": "Tyskland"
+    },
+    "tur": {
+    "official": "Almanya Federal Cumhuriyeti",
+    "common": "Almanya"
+    },
+    "urd": {
+    "official": "وفاقی جمہوریہ جرمنی",
+    "common": "جرمنی"
+    },
+    "zho": {
+    "official": "德意志联邦共和国",
+    "common": "德国"
+    }
+    },
+    "latlng": [
+    51,
+    9
+    ],
+    "landlocked": false,
+    "borders": [
+    "AUT",
+    "BEL",
+    "CZE",
+    "DNK",
+    "FRA",
+    "LUX",
+    "NLD",
+    "POL",
+    "CHE"
+    ],
+    "area": 357114,
+    "demonyms": {
+    "eng": {
+    "f": "German",
+    "m": "German"
+    },
+    "fra": {
+    "f": "Allemande",
+    "m": "Allemand"
+    }
+    },
+    "flag": "🇩🇪",
+    "maps": {
+    "googleMaps": "https://goo.gl/maps/mD9FBMq1nvXUBrkv6",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/51477"
+    },
+    "population": 83240525,
+    "gini": {
+    "2016": 31.9
+    },
+    "fifa": "GER",
+    "car": {
+    "signs": [
+    "DY"
+    ],
+    "side": "right"
+    },
+    "timezones": [
+    "UTC+01:00"
+    ],
+    "continents": [
+    "Europe"
+    ],
+    "flags": {
+    "png": "https://flagcdn.com/w320/de.png",
+    "svg": "https://flagcdn.com/de.svg",
+    "alt": "The flag of Germany is composed of three equal horizontal bands of black, red and gold."
+    },
+    "coatOfArms": {
+    "png": "https://mainfacts.com/media/images/coats_of_arms/de.png",
+    "svg": "https://mainfacts.com/media/images/coats_of_arms/de.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+    "latlng": [
+    52.52,
+    13.4
+    ]
+    },
+    "postalCode": {
+    "format": "#####",
+    "regex": "^(\\d{5})$"
+    }
+    },
+    {
+    "name": {
+    "common": "Liechtenstein",
+    "official": "Principality of Liechtenstein",
+    "nativeName": {
+    "deu": {
+    "official": "Fürstentum Liechtenstein",
+    "common": "Liechtenstein"
+    }
+    }
+    },
+    "tld": [
+    ".li"
+    ],
+    "cca2": "LI",
+    "ccn3": "438",
+    "cca3": "LIE",
+    "cioc": "LIE",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "currencies": {
+    "CHF": {
+    "name": "Swiss franc",
+    "symbol": "Fr"
+    }
+    },
+    "idd": {
+    "root": "+4",
+    "suffixes": [
+    "23"
+    ]
+    },
+    "capital": [
+    "Vaduz"
+    ],
+    "altSpellings": [
+    "LI",
+    "Principality of Liechtenstein",
+    "Fürstentum Liechtenstein"
+    ],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "languages": {
+    "deu": "German"
+    },
+    "translations": {
+    "ara": {
+    "official": "إمارة ليختنشتاين",
+    "common": "ليختنشتاين"
+    },
+    "bre": {
+    "official": "Priñselezh Liechtenstein",
+    "common": "Liechtenstein"
+    },
+    "ces": {
+    "official": "Knížectví Lichtenštejnské",
+    "common": "Lichtenštejnsko"
+    },
+    "cym": {
+    "official": "Principality of Liechtenstein",
+    "common": "Liechtenstein"
+    },
+    "deu": {
+    "official": "Fürstentum Liechtenstein",
+    "common": "Liechtenstein"
+    },
+    "est": {
+    "official": "Liechtensteini Vürstiriik",
+    "common": "Liechtenstein"
+    },
+    "fin": {
+    "official": "Liechensteinin ruhtinaskunta",
+    "common": "Liechenstein"
+    },
+    "fra": {
+    "official": "Principauté du Liechtenstein",
+    "common": "Liechtenstein"
+    },
+    "hrv": {
+    "official": "Kneževina Lihtenštajn",
+    "common": "Lihtenštajn"
+    },
+    "hun": {
+    "official": "Liechtensteini Hercegség",
+    "common": "Liechtenstein"
+    },
+    "ita": {
+    "official": "Principato del Liechtenstein",
+    "common": "Liechtenstein"
+    },
+    "jpn": {
+    "official": "リヒテンシュタイン公国",
+    "common": "リヒテンシュタイン"
+    },
+    "kor": {
+    "official": "리히텐슈타인 공국",
+    "common": "리히텐슈타인"
+    },
+    "nld": {
+    "official": "Vorstendom Liechtenstein",
+    "common": "Liechtenstein"
+    },
+    "per": {
+    "official": "شاهزاده‌نشین لیختن‌اشتاین",
+    "common": "لیختن‌اشتاین"
+    },
+    "pol": {
+    "official": "Księstwo Liechtensteinu",
+    "common": "Liechtenstein"
+    },
+    "por": {
+    "official": "Principado de Liechtenstein",
+    "common": "Liechtenstein"
+    },
+    "rus": {
+    "official": "Княжество Лихтенштейн",
+    "common": "Лихтенштейн"
+    },
+    "slk": {
+    "official": "Lichtenštajnské kniežatstvo",
+    "common": "Lichtenštajnsko"
+    },
+    "spa": {
+    "official": "Principado de Liechtenstein",
+    "common": "Liechtenstein"
+    },
+    "srp": {
+    "official": "Кнежевина Лихтенштајн",
+    "common": "Лихтенштајн"
+    },
+    "swe": {
+    "official": "Furstendömet Liechtenstein",
+    "common": "Liechtenstein"
+    },
+    "tur": {
+    "official": "Lihtenştayn Prensliği",
+    "common": "Lihtenştayn"
+    },
+    "urd": {
+    "official": "امارات لیختینستائن",
+    "common": "لیختینستائن"
+    },
+    "zho": {
+    "official": "列支敦士登公国",
+    "common": "列支敦士登"
+    }
+    },
+    "latlng": [
+    47.26666666,
+    9.53333333
+    ],
+    "landlocked": true,
+    "borders": [
+    "AUT",
+    "CHE"
+    ],
+    "area": 160,
+    "demonyms": {
+    "eng": {
+    "f": "Liechtensteiner",
+    "m": "Liechtensteiner"
+    },
+    "fra": {
+    "f": "Liechtensteinoise",
+    "m": "Liechtensteinois"
+    }
+    },
+    "flag": "🇱🇮",
+    "maps": {
+    "googleMaps": "https://goo.gl/maps/KNuHeiJzAPodwM7y6",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/1155955"
+    },
+    "population": 38137,
+    "fifa": "LIE",
+    "car": {
+    "signs": [
+    "FL"
+    ],
+    "side": "right"
+    },
+    "timezones": [
+    "UTC+01:00"
+    ],
+    "continents": [
+    "Europe"
+    ],
+    "flags": {
+    "png": "https://flagcdn.com/w320/li.png",
+    "svg": "https://flagcdn.com/li.svg",
+    "alt": "The flag of Liechtenstein is composed of two equal horizontal bands of blue and red, with a golden-yellow crown on the hoist side of the blue band."
+    },
+    "coatOfArms": {
+    "png": "https://mainfacts.com/media/images/coats_of_arms/li.png",
+    "svg": "https://mainfacts.com/media/images/coats_of_arms/li.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+    "latlng": [
+    47.13,
+    9.52
+    ]
+    },
+    "postalCode": {
+    "format": "####",
+    "regex": "^(\\d{4})$"
+    }
+    },
+    {
+    "name": {
+    "common": "Italy",
+    "official": "Italian Republic",
+    "nativeName": {
+    "ita": {
+    "official": "Repubblica italiana",
+    "common": "Italia"
+    }
+    }
+    },
+    "tld": [
+    ".it"
+    ],
+    "cca2": "IT",
+    "ccn3": "380",
+    "cca3": "ITA",
+    "cioc": "ITA",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "currencies": {
+    "EUR": {
+    "name": "Euro",
+    "symbol": "€"
+    }
+    },
+    "idd": {
+    "root": "+3",
+    "suffixes": [
+    "9"
+    ]
+    },
+    "capital": [
+    "Rome"
+    ],
+    "altSpellings": [
+    "IT",
+    "Italian Republic",
+    "Repubblica italiana"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "languages": {
+    "ita": "Italian"
+    },
+    "translations": {
+    "ara": {
+    "official": "الجمهورية الإيطالية",
+    "common": "إيطاليا"
+    },
+    "bre": {
+    "official": "Republik Italia",
+    "common": "Italia"
+    },
+    "ces": {
+    "official": "Italská republika",
+    "common": "Itálie"
+    },
+    "cym": {
+    "official": "Italian Republic",
+    "common": "Italy"
+    },
+    "deu": {
+    "official": "Italienische Republik",
+    "common": "Italien"
+    },
+    "est": {
+    "official": "Itaalia Vabariik",
+    "common": "Itaalia"
+    },
+    "fin": {
+    "official": "Italian tasavalta",
+    "common": "Italia"
+    },
+    "fra": {
+    "official": "République italienne",
+    "common": "Italie"
+    },
+    "hrv": {
+    "official": "talijanska Republika",
+    "common": "Italija"
+    },
+    "hun": {
+    "official": "Olasz Köztársaság",
+    "common": "Olaszország"
+    },
+    "ita": {
+    "official": "Repubblica italiana",
+    "common": "Italia"
+    },
+    "jpn": {
+    "official": "イタリア共和国",
+    "common": "イタリア"
+    },
+    "kor": {
+    "official": "이탈리아 공화국",
+    "common": "이탈리아"
+    },
+    "nld": {
+    "official": "Italiaanse Republiek",
+    "common": "Italië"
+    },
+    "per": {
+    "official": "جمهوری ایتالیا",
+    "common": "ایتالیا"
+    },
+    "pol": {
+    "official": "Republika Włoska",
+    "common": "Włochy"
+    },
+    "por": {
+    "official": "República Italiana",
+    "common": "Itália"
+    },
+    "rus": {
+    "official": "итальянская Республика",
+    "common": "Италия"
+    },
+    "slk": {
+    "official": "Talianska republika",
+    "common": "Taliansko"
+    },
+    "spa": {
+    "official": "República Italiana",
+    "common": "Italia"
+    },
+    "srp": {
+    "official": "Италијанска Република",
+    "common": "Италија"
+    },
+    "swe": {
+    "official": "Republiken Italien",
+    "common": "Italien"
+    },
+    "tur": {
+    "official": "İtalyan Cumhuriyeti",
+    "common": "İtalya"
+    },
+    "urd": {
+    "official": "جمہوریہ اطالیہ",
+    "common": "اطالیہ"
+    },
+    "zho": {
+    "official": "意大利共和国",
+    "common": "意大利"
+    }
+    },
+    "latlng": [
+    42.83333333,
+    12.83333333
+    ],
+    "landlocked": false,
+    "borders": [
+    "AUT",
+    "FRA",
+    "SMR",
+    "SVN",
+    "CHE",
+    "VAT"
+    ],
+    "area": 301336,
+    "demonyms": {
+    "eng": {
+    "f": "Italian",
+    "m": "Italian"
+    },
+    "fra": {
+    "f": "Italienne",
+    "m": "Italien"
+    }
+    },
+    "flag": "🇮🇹",
+    "maps": {
+    "googleMaps": "https://goo.gl/maps/8M1K27TDj7StTRTq8",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/365331"
+    },
+    "population": 59554023,
+    "gini": {
+    "2017": 35.9
+    },
+    "fifa": "ITA",
+    "car": {
+    "signs": [
+    "I"
+    ],
+    "side": "right"
+    },
+    "timezones": [
+    "UTC+01:00"
+    ],
+    "continents": [
+    "Europe"
+    ],
+    "flags": {
+    "png": "https://flagcdn.com/w320/it.png",
+    "svg": "https://flagcdn.com/it.svg",
+    "alt": "The flag of Italy is composed of three equal vertical bands of green, white and red."
+    },
+    "coatOfArms": {
+    "png": "https://mainfacts.com/media/images/coats_of_arms/it.png",
+    "svg": "https://mainfacts.com/media/images/coats_of_arms/it.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+    "latlng": [
+    41.9,
+    12.48
+    ]
+    },
+    "postalCode": {
+    "format": "#####",
+    "regex": "^(\\d{5})$"
+    }
+    },
+    {
+    "name": {
+    "common": "Slovakia",
+    "official": "Slovak Republic",
+    "nativeName": {
+    "slk": {
+    "official": "Slovenská republika",
+    "common": "Slovensko"
+    }
+    }
+    },
+    "tld": [
+    ".sk"
+    ],
+    "cca2": "SK",
+    "ccn3": "703",
+    "cca3": "SVK",
+    "cioc": "SVK",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "currencies": {
+    "EUR": {
+    "name": "Euro",
+    "symbol": "€"
+    }
+    },
+    "idd": {
+    "root": "+4",
+    "suffixes": [
+    "21"
+    ]
+    },
+    "capital": [
+    "Bratislava"
+    ],
+    "altSpellings": [
+    "SK",
+    "Slovak Republic",
+    "Slovenská republika"
+    ],
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "languages": {
+    "slk": "Slovak"
+    },
+    "translations": {
+    "ara": {
+    "official": "جمهورية سلوفاكيا",
+    "common": "سلوفاكيا"
+    },
+    "bre": {
+    "official": "Republik Slovak",
+    "common": "Slovakia"
+    },
+    "ces": {
+    "official": "Slovenská republika",
+    "common": "Slovensko"
+    },
+    "cym": {
+    "official": "Slovak Republic",
+    "common": "Slovakia"
+    },
+    "deu": {
+    "official": "Slowakische Republik",
+    "common": "Slowakei"
+    },
+    "est": {
+    "official": "Slovaki Vabariik",
+    "common": "Slovakkia"
+    },
+    "fin": {
+    "official": "Slovakian tasavalta",
+    "common": "Slovakia"
+    },
+    "fra": {
+    "official": "République slovaque",
+    "common": "Slovaquie"
+    },
+    "hrv": {
+    "official": "slovačka",
+    "common": "Slovačka"
+    },
+    "hun": {
+    "official": "Szlovák Köztársaság",
+    "common": "Szlovákia"
+    },
+    "ita": {
+    "official": "Repubblica slovacca",
+    "common": "Slovacchia"
+    },
+    "jpn": {
+    "official": "スロバキア共和国",
+    "common": "スロバキア"
+    },
+    "kor": {
+    "official": "슬로바키아 공화국",
+    "common": "슬로바키아"
+    },
+    "nld": {
+    "official": "Slowaakse Republiek",
+    "common": "Slowakije"
+    },
+    "per": {
+    "official": "جمهوری اسلواکی",
+    "common": "اِسلُواکی"
+    },
+    "pol": {
+    "official": "Republika Słowacka",
+    "common": "Słowacja"
+    },
+    "por": {
+    "official": "República Eslovaca",
+    "common": "Eslováquia"
+    },
+    "rus": {
+    "official": "Словацкая Республика",
+    "common": "Словакия"
+    },
+    "slk": {
+    "official": "Slovenská republika",
+    "common": "Slovensko"
+    },
+    "spa": {
+    "official": "República Eslovaca",
+    "common": "República Eslovaca"
+    },
+    "srp": {
+    "official": "Словачка Република",
+    "common": "Словачка"
+    },
+    "swe": {
+    "official": "Republiken Slovakien",
+    "common": "Slovakien"
+    },
+    "tur": {
+    "official": "Slovak Cumhuriyeti",
+    "common": "Slovakya"
+    },
+    "urd": {
+    "official": "جمہوریہ سلوواکیہ",
+    "common": "سلوواکیہ"
+    },
+    "zho": {
+    "official": "斯洛伐克共和国",
+    "common": "斯洛伐克"
+    }
+    },
+    "latlng": [
+    48.66666666,
+    19.5
+    ],
+    "landlocked": true,
+    "borders": [
+    "AUT",
+    "CZE",
+    "HUN",
+    "POL",
+    "UKR"
+    ],
+    "area": 49037,
+    "demonyms": {
+    "eng": {
+    "f": "Slovak",
+    "m": "Slovak"
+    },
+    "fra": {
+    "f": "Slovaque",
+    "m": "Slovaque"
+    }
+    },
+    "flag": "🇸🇰",
+    "maps": {
+    "googleMaps": "https://goo.gl/maps/uNSH2wW4bLoZVYJj7",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/14296"
+    },
+    "population": 5458827,
+    "gini": {
+    "2018": 25
+    },
+    "fifa": "SVK",
+    "car": {
+    "signs": [
+    "SK"
+    ],
+    "side": "right"
+    },
+    "timezones": [
+    "UTC+01:00"
+    ],
+    "continents": [
+    "Europe"
+    ],
+    "flags": {
+    "png": "https://flagcdn.com/w320/sk.png",
+    "svg": "https://flagcdn.com/sk.svg",
+    "alt": "The flag of Slovakia is composed of three equal horizontal bands of white, blue and red. The coat of arms of Slovakia is superimposed at the center of the field slightly towards the hoist side."
+    },
+    "coatOfArms": {
+    "png": "https://mainfacts.com/media/images/coats_of_arms/sk.png",
+    "svg": "https://mainfacts.com/media/images/coats_of_arms/sk.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+    "latlng": [
+    48.15,
+    17.12
+    ]
+    },
+    "postalCode": {
+    "format": "###  ##",
+    "regex": "^(\\d{5})$"
+    }
+    }
+    ]

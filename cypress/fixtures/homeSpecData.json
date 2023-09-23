@@ -1,6 +1,437 @@
 [
     {
     "name": {
+    "common": "Austria",
+    "official": "Republic of Austria",
+    "nativeName": {
+    "bar": {
+    "official": "Republik Österreich",
+    "common": "Österreich"
+    }
+    }
+    },
+    "tld": [
+    ".at"
+    ],
+    "cca2": "AT",
+    "ccn3": "040",
+    "cca3": "AUT",
+    "cioc": "AUT",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "currencies": {
+    "EUR": {
+    "name": "Euro",
+    "symbol": "€"
+    }
+    },
+    "idd": {
+    "root": "+4",
+    "suffixes": [
+    "3"
+    ]
+    },
+    "capital": [
+    "Vienna"
+    ],
+    "altSpellings": [
+    "AT",
+    "Osterreich",
+    "Oesterreich"
+    ],
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "languages": {
+    "de": "German"
+    },
+    "translations": {
+    "ara": {
+    "official": "جمهورية النمسا",
+    "common": "النمسا"
+    },
+    "bre": {
+    "official": "Republik Aostria",
+    "common": "Aostria"
+    },
+    "ces": {
+    "official": "Rakouská republika",
+    "common": "Rakousko"
+    },
+    "cym": {
+    "official": "Gweriniaeth Awstria",
+    "common": "Awstria"
+    },
+    "deu": {
+    "official": "Republik Österreich",
+    "common": "Österreich"
+    },
+    "est": {
+    "official": "Austria Vabariik",
+    "common": "Austria"
+    },
+    "fin": {
+    "official": "Itävallan tasavalta",
+    "common": "Itävalta"
+    },
+    "fra": {
+    "official": "République d'Autriche",
+    "common": "Autriche"
+    },
+    "hrv": {
+    "official": "Republika Austrija",
+    "common": "Austrija"
+    },
+    "hun": {
+    "official": "Ausztria",
+    "common": "Ausztria"
+    },
+    "ita": {
+    "official": "Repubblica d'Austria",
+    "common": "Austria"
+    },
+    "jpn": {
+    "official": "オーストリア共和国",
+    "common": "オーストリア"
+    },
+    "kor": {
+    "official": "오스트리아 공화국",
+    "common": "오스트리아"
+    },
+    "nld": {
+    "official": "Republiek Oostenrijk",
+    "common": "Oostenrijk"
+    },
+    "per": {
+    "official": "جمهوری اتریش",
+    "common": "اتریش"
+    },
+    "pol": {
+    "official": "Republika Austrii",
+    "common": "Austria"
+    },
+    "por": {
+    "official": "República da Áustria",
+    "common": "Áustria"
+    },
+    "rus": {
+    "official": "Австрийская Республика",
+    "common": "Австрия"
+    },
+    "slk": {
+    "official": "Rakúska republika",
+    "common": "Rakúsko"
+    },
+    "spa": {
+    "official": "República de Austria",
+    "common": "Austria"
+    },
+    "srp": {
+    "official": "Република Аустрија",
+    "common": "Аустрија"
+    },
+    "swe": {
+    "official": "Republiken Österrike",
+    "common": "Österrike"
+    },
+    "tur": {
+    "official": "Avusturya Cumhuriyeti",
+    "common": "Avusturya"
+    },
+    "urd": {
+    "official": "جمہوریہ آسٹریا",
+    "common": "آسٹریا"
+    },
+    "zho": {
+    "official": "奥地利共和国",
+    "common": "奥地利"
+    }
+    },
+    "latlng": [
+    47.33333333,
+    13.33333333
+    ],
+    "landlocked": true,
+    "borders": [
+    "CZE",
+    "DEU",
+    "HUN",
+    "ITA",
+    "LIE",
+    "SVK",
+    "SVN",
+    "CHE"
+    ],
+    "area": 83871,
+    "demonyms": {
+    "eng": {
+    "f": "Austrian",
+    "m": "Austrian"
+    },
+    "fra": {
+    "f": "Autrichienne",
+    "m": "Autrichien"
+    }
+    },
+    "flag": "🇦🇹",
+    "maps": {
+    "googleMaps": "https://goo.gl/maps/pCWpWQhznHyRzQcu9",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/16239"
+    },
+    "population": 8917205,
+    "gini": {
+    "2018": 30.8
+    },
+    "fifa": "AUT",
+    "car": {
+    "signs": [
+    "A"
+    ],
+    "side": "right"
+    },
+    "timezones": [
+    "UTC+01:00"
+    ],
+    "continents": [
+    "Europe"
+    ],
+    "flags": {
+    "png": "https://flagcdn.com/w320/at.png",
+    "svg": "https://flagcdn.com/at.svg",
+    "alt": "The flag of Austria is composed of three equal horizontal bands of red, white and red."
+    },
+    "coatOfArms": {
+    "png": "https://mainfacts.com/media/images/coats_of_arms/at.png",
+    "svg": "https://mainfacts.com/media/images/coats_of_arms/at.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+    "latlng": [
+    48.2,
+    16.37
+    ]
+    },
+    "postalCode": {
+    "format": "####",
+    "regex": "^(\\d{4})$"
+    }
+    },
+    {
+    "name": {
+    "common": "Greece",
+    "official": "Hellenic Republic",
+    "nativeName": {
+    "ell": {
+    "official": "Ελληνική Δημοκρατία",
+    "common": "Ελλάδα"
+    }
+    }
+    },
+    "tld": [
+    ".gr"
+    ],
+    "cca2": "GR",
+    "ccn3": "300",
+    "cca3": "GRC",
+    "cioc": "GRE",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "currencies": {
+    "EUR": {
+    "name": "Euro",
+    "symbol": "€"
+    }
+    },
+    "idd": {
+    "root": "+3",
+    "suffixes": [
+    "0"
+    ]
+    },
+    "capital": [
+    "Athens"
+    ],
+    "altSpellings": [
+    "GR",
+    "Elláda",
+    "Hellenic Republic",
+    "Ελληνική Δημοκρατία"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "languages": {
+    "ell": "Greek"
+    },
+    "translations": {
+    "ara": {
+    "official": "الجمهورية الهيلينية",
+    "common": "اليونان"
+    },
+    "bre": {
+    "official": "Republik Hellenek",
+    "common": "Gres"
+    },
+    "ces": {
+    "official": "Řecká republika",
+    "common": "Řecko"
+    },
+    "cym": {
+    "official": "Hellenic Republic",
+    "common": "Greece"
+    },
+    "deu": {
+    "official": "Hellenische Republik",
+    "common": "Griechenland"
+    },
+    "est": {
+    "official": "Kreeka Vabariik",
+    "common": "Kreeka"
+    },
+    "fin": {
+    "official": "Helleenien tasavalta",
+    "common": "Kreikka"
+    },
+    "fra": {
+    "official": "République hellénique",
+    "common": "Grèce"
+    },
+    "hrv": {
+    "official": "Helenska Republika",
+    "common": "Grčka"
+    },
+    "hun": {
+    "official": "Görög Köztársaság",
+    "common": "Görögország"
+    },
+    "ita": {
+    "official": "Repubblica ellenica",
+    "common": "Grecia"
+    },
+    "jpn": {
+    "official": "ギリシャ共和国",
+    "common": "ギリシャ"
+    },
+    "kor": {
+    "official": "그리스 공화국",
+    "common": "그리스"
+    },
+    "nld": {
+    "official": "Helleense Republiek",
+    "common": "Griekenland"
+    },
+    "per": {
+    "official": "جمهوری یونان",
+    "common": "یونان"
+    },
+    "pol": {
+    "official": "Republika Grecka",
+    "common": "Grecja"
+    },
+    "por": {
+    "official": "República Helénica",
+    "common": "Grécia"
+    },
+    "rus": {
+    "official": "Греческая Республика",
+    "common": "Греция"
+    },
+    "slk": {
+    "official": "Grécka republika",
+    "common": "Greécko"
+    },
+    "spa": {
+    "official": "República Helénica",
+    "common": "Grecia"
+    },
+    "srp": {
+    "official": "Хеленска Република",
+    "common": "Грчка"
+    },
+    "swe": {
+    "official": "Republiken Grekland",
+    "common": "Grekland"
+    },
+    "tur": {
+    "official": "Helen Cumhuriyeti",
+    "common": "Yunanistan"
+    },
+    "urd": {
+    "official": "جمہوریہ ہیلینیہ",
+    "common": "یونان"
+    },
+    "zho": {
+    "official": "希腊共和国",
+    "common": "希腊"
+    }
+    },
+    "latlng": [
+    39,
+    22
+    ],
+    "landlocked": false,
+    "borders": [
+    "ALB",
+    "BGR",
+    "TUR",
+    "MKD"
+    ],
+    "area": 131990,
+    "demonyms": {
+    "eng": {
+    "f": "Greek",
+    "m": "Greek"
+    },
+    "fra": {
+    "f": "Grecque",
+    "m": "Grec"
+    }
+    },
+    "flag": "🇬🇷",
+    "maps": {
+    "googleMaps": "https://goo.gl/maps/LHGcAvuRyD2iKECC6",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/192307"
+    },
+    "population": 10715549,
+    "gini": {
+    "2018": 32.9
+    },
+    "fifa": "GRE",
+    "car": {
+    "signs": [
+    "GR"
+    ],
+    "side": "right"
+    },
+    "timezones": [
+    "UTC+02:00"
+    ],
+    "continents": [
+    "Europe"
+    ],
+    "flags": {
+    "png": "https://flagcdn.com/w320/gr.png",
+    "svg": "https://flagcdn.com/gr.svg",
+    "alt": "The flag of Greece is composed of nine equal horizontal bands of blue alternating with white. A blue square bearing a white cross is superimposed in the canton."
+    },
+    "coatOfArms": {
+    "png": "https://mainfacts.com/media/images/coats_of_arms/gr.png",
+    "svg": "https://mainfacts.com/media/images/coats_of_arms/gr.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+    "latlng": [
+    37.98,
+    23.73
+    ]
+    },
+    "postalCode": {
+    "format": "### ##",
+    "regex": "^(\\d{5})$"
+    }
+    },
+    {
+    "name": {
     "common": "Botswana",
     "official": "Republic of Botswana",
     "nativeName": {
@@ -632,6 +1063,218 @@
     4.71,
     -74.07
     ]
+    }
+    },
+    {
+    "name": {
+    "common": "Portugal",
+    "official": "Portuguese Republic",
+    "nativeName": {
+    "por": {
+    "official": "República português",
+    "common": "Portugal"
+    }
+    }
+    },
+    "tld": [
+    ".pt"
+    ],
+    "cca2": "PT",
+    "ccn3": "620",
+    "cca3": "PRT",
+    "cioc": "POR",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "currencies": {
+    "EUR": {
+    "name": "Euro",
+    "symbol": "€"
+    }
+    },
+    "idd": {
+    "root": "+3",
+    "suffixes": [
+    "51"
+    ]
+    },
+    "capital": [
+    "Lisbon"
+    ],
+    "altSpellings": [
+    "PT",
+    "Portuguesa",
+    "Portuguese Republic",
+    "República Portuguesa"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "languages": {
+    "por": "Portuguese"
+    },
+    "translations": {
+    "ara": {
+    "official": "الجمهورية البرتغالية",
+    "common": "البرتغال"
+    },
+    "bre": {
+    "official": "Republik Portugalat",
+    "common": "Portugal"
+    },
+    "ces": {
+    "official": "Portugalská republika",
+    "common": "Portugalsko"
+    },
+    "cym": {
+    "official": "Portuguese Republic",
+    "common": "Portugal"
+    },
+    "deu": {
+    "official": "Portugiesische Republik",
+    "common": "Portugal"
+    },
+    "est": {
+    "official": "Portugali Vabariik",
+    "common": "Portugal"
+    },
+    "fin": {
+    "official": "Portugalin tasavalta",
+    "common": "Portugali"
+    },
+    "fra": {
+    "official": "République portugaise",
+    "common": "Portugal"
+    },
+    "hrv": {
+    "official": "Portugalska Republika",
+    "common": "Portugal"
+    },
+    "hun": {
+    "official": "Portugál Köztársaság",
+    "common": "Portugália"
+    },
+    "ita": {
+    "official": "Repubblica portoghese",
+    "common": "Portogallo"
+    },
+    "jpn": {
+    "official": "ポルトガル共和国",
+    "common": "ポルトガル"
+    },
+    "kor": {
+    "official": "포르투갈 공화국",
+    "common": "포르투갈"
+    },
+    "nld": {
+    "official": "Portugese Republiek",
+    "common": "Portugal"
+    },
+    "per": {
+    "official": "جمهوری پرتغال",
+    "common": "پرتغال"
+    },
+    "pol": {
+    "official": "Republika Portugalska",
+    "common": "Portugalia"
+    },
+    "por": {
+    "official": "República português",
+    "common": "Portugal"
+    },
+    "rus": {
+    "official": "Португальская Республика",
+    "common": "Португалия"
+    },
+    "slk": {
+    "official": "Portugalská republika",
+    "common": "Portugalsko"
+    },
+    "spa": {
+    "official": "República Portuguesa",
+    "common": "Portugal"
+    },
+    "srp": {
+    "official": "Португалска Република",
+    "common": "Португал"
+    },
+    "swe": {
+    "official": "Republiken Portugal",
+    "common": "Portugal"
+    },
+    "tur": {
+    "official": "Portekiz Cumhuriyeti",
+    "common": "Portekiz"
+    },
+    "urd": {
+    "official": "جمہوریہ پرتگال",
+    "common": "پرتگال"
+    },
+    "zho": {
+    "official": "葡萄牙共和国",
+    "common": "葡萄牙"
+    }
+    },
+    "latlng": [
+    39.5,
+    -8
+    ],
+    "landlocked": false,
+    "borders": [
+    "ESP"
+    ],
+    "area": 92090,
+    "demonyms": {
+    "eng": {
+    "f": "Portuguese",
+    "m": "Portuguese"
+    },
+    "fra": {
+    "f": "Portugaise",
+    "m": "Portugais"
+    }
+    },
+    "flag": "🇵🇹",
+    "maps": {
+    "googleMaps": "https://goo.gl/maps/BaTBSyc4GWMmbAKB8",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/295480"
+    },
+    "population": 10305564,
+    "gini": {
+    "2018": 33.5
+    },
+    "fifa": "POR",
+    "car": {
+    "signs": [
+    "P"
+    ],
+    "side": "right"
+    },
+    "timezones": [
+    "UTC-01:00",
+    "UTC"
+    ],
+    "continents": [
+    "Europe"
+    ],
+    "flags": {
+    "png": "https://flagcdn.com/w320/pt.png",
+    "svg": "https://flagcdn.com/pt.svg",
+    "alt": "The flag of Portugal is composed of two vertical bands of green and red in the ratio of 2:3, with the coat of arms of Portugal centered over the two-color boundary."
+    },
+    "coatOfArms": {
+    "png": "https://mainfacts.com/media/images/coats_of_arms/pt.png",
+    "svg": "https://mainfacts.com/media/images/coats_of_arms/pt.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+    "latlng": [
+    38.72,
+    -9.13
+    ]
+    },
+    "postalCode": {
+    "format": "####-###",
+    "regex": "^(\\d{7})$"
     }
     }
     ]

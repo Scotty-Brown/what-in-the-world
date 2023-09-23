@@ -52,16 +52,16 @@ describe('Home Spec', () => {
     .find('.preview-card')
     .first()
     .within(() => {
-      cy.get('img').should('have.attr', 'src').and('contain', 'https://flagcdn.com/w320/bw.png')
-      cy.get('.preview-card-name').should('exist').and('contain', 'Botswana')
+      cy.get('img').should('have.attr', 'src').and('contain', 'https://flagcdn.com/w320/at.png')
+      cy.get('.preview-card-name').should('exist').and('contain', 'Austria')
     })
 
     cy.get('.preview-card-container')
     .find('.preview-card')
     .last()
     .within(() => {
-      cy.get('img').should('have.attr', 'src').and('contain', 'https://flagcdn.com/w320/co.png')
-      cy.get('.preview-card-name').should('exist').and('contain', 'Colombia')
+      cy.get('img').should('have.attr', 'src').and('contain', 'https://flagcdn.com/w320/bw.png')
+      cy.get('.preview-card-name').should('exist').and('contain', 'Botswana')
     })
 
   })
