@@ -10,7 +10,7 @@ function Highlight () {
                 <img src={HighlightImage}></img>
                 <div className='location-link'>
                     <h2 className='highlight-location'>📍Lisbon, Portugal</h2>
-                <Link to={'/620'} className='learn-more'>Learn More About Portugal!</Link>
+                    <Link to={'/620'} className='learn-more'>Learn More About Portugal!</Link>
                 </div>
             </div>
         )
