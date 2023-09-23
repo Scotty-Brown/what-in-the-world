@@ -36,13 +36,18 @@ function App() {
   return (
     <div className="App">
       <Header />
-        {!error ? <Routes>
-          <Route path='/' element={<Home homePreview={homePreview}/>}/>
-          <Route path='/allCountries' element={<AllCountries countriesSimple={countriesSimple} />} />
-          <Route path='/:id' element={<SingleCountry setError={setError} />} />
-        </Routes> : <ErrorCard />} 
+        {!error ? 
+          <Routes>
+            <Route path='/' element={<Home homePreview={homePreview}/>}/>
+            <Route path='/allCountries' element={<AllCountries countriesSimple={countriesSimple} />} />
+            <Route path='/:id' element={<SingleCountry setError={setError} />} />
+          </Routes> 
+        : <ErrorCard error={error}/>} 
     </div>
   );
 }
 
 export default App;
+
+
+{/* <Route path='/' element={!error ? <Home homePreview={homePreview} /> : <ErrorCard error={error} />}/> */}
