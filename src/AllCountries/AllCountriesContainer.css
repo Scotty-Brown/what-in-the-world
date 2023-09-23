@@ -4,6 +4,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: flex-end;
     margin-right: 3em;
     margin-left: 3em;
     padding-top: 3em;

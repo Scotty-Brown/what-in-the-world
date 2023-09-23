@@ -1,14 +1,17 @@
+.preview-card-link {
+    text-decoration: none;
+}
+
 .preview-card {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
+    align-items: center;
 }
 
 .preview-card-name {
     color: white;
     font-size: 30px;
-    /* text-shadow: 0 0 2px #000, 0 0 0.5em #000, -3px -3px 6px #000; */
     text-shadow: 0 0 2px #000, 0 0 0.5em #000, 7px 7px 6px #000;
 }
 
