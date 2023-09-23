@@ -1,0 +1,1280 @@
+[
+    {
+    "name": {
+    "common": "Austria",
+    "official": "Republic of Austria",
+    "nativeName": {
+    "bar": {
+    "official": "Republik Österreich",
+    "common": "Österreich"
+    }
+    }
+    },
+    "tld": [
+    ".at"
+    ],
+    "cca2": "AT",
+    "ccn3": "040",
+    "cca3": "AUT",
+    "cioc": "AUT",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "currencies": {
+    "EUR": {
+    "name": "Euro",
+    "symbol": "€"
+    }
+    },
+    "idd": {
+    "root": "+4",
+    "suffixes": [
+    "3"
+    ]
+    },
+    "capital": [
+    "Vienna"
+    ],
+    "altSpellings": [
+    "AT",
+    "Osterreich",
+    "Oesterreich"
+    ],
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "languages": {
+    "de": "German"
+    },
+    "translations": {
+    "ara": {
+    "official": "جمهورية النمسا",
+    "common": "النمسا"
+    },
+    "bre": {
+    "official": "Republik Aostria",
+    "common": "Aostria"
+    },
+    "ces": {
+    "official": "Rakouská republika",
+    "common": "Rakousko"
+    },
+    "cym": {
+    "official": "Gweriniaeth Awstria",
+    "common": "Awstria"
+    },
+    "deu": {
+    "official": "Republik Österreich",
+    "common": "Österreich"
+    },
+    "est": {
+    "official": "Austria Vabariik",
+    "common": "Austria"
+    },
+    "fin": {
+    "official": "Itävallan tasavalta",
+    "common": "Itävalta"
+    },
+    "fra": {
+    "official": "République d'Autriche",
+    "common": "Autriche"
+    },
+    "hrv": {
+    "official": "Republika Austrija",
+    "common": "Austrija"
+    },
+    "hun": {
+    "official": "Ausztria",
+    "common": "Ausztria"
+    },
+    "ita": {
+    "official": "Repubblica d'Austria",
+    "common": "Austria"
+    },
+    "jpn": {
+    "official": "オーストリア共和国",
+    "common": "オーストリア"
+    },
+    "kor": {
+    "official": "오스트리아 공화국",
+    "common": "오스트리아"
+    },
+    "nld": {
+    "official": "Republiek Oostenrijk",
+    "common": "Oostenrijk"
+    },
+    "per": {
+    "official": "جمهوری اتریش",
+    "common": "اتریش"
+    },
+    "pol": {
+    "official": "Republika Austrii",
+    "common": "Austria"
+    },
+    "por": {
+    "official": "República da Áustria",
+    "common": "Áustria"
+    },
+    "rus": {
+    "official": "Австрийская Республика",
+    "common": "Австрия"
+    },
+    "slk": {
+    "official": "Rakúska republika",
+    "common": "Rakúsko"
+    },
+    "spa": {
+    "official": "República de Austria",
+    "common": "Austria"
+    },
+    "srp": {
+    "official": "Република Аустрија",
+    "common": "Аустрија"
+    },
+    "swe": {
+    "official": "Republiken Österrike",
+    "common": "Österrike"
+    },
+    "tur": {
+    "official": "Avusturya Cumhuriyeti",
+    "common": "Avusturya"
+    },
+    "urd": {
+    "official": "جمہوریہ آسٹریا",
+    "common": "آسٹریا"
+    },
+    "zho": {
+    "official": "奥地利共和国",
+    "common": "奥地利"
+    }
+    },
+    "latlng": [
+    47.33333333,
+    13.33333333
+    ],
+    "landlocked": true,
+    "borders": [
+    "CZE",
+    "DEU",
+    "HUN",
+    "ITA",
+    "LIE",
+    "SVK",
+    "SVN",
+    "CHE"
+    ],
+    "area": 83871,
+    "demonyms": {
+    "eng": {
+    "f": "Austrian",
+    "m": "Austrian"
+    },
+    "fra": {
+    "f": "Autrichienne",
+    "m": "Autrichien"
+    }
+    },
+    "flag": "🇦🇹",
+    "maps": {
+    "googleMaps": "https://goo.gl/maps/pCWpWQhznHyRzQcu9",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/16239"
+    },
+    "population": 8917205,
+    "gini": {
+    "2018": 30.8
+    },
+    "fifa": "AUT",
+    "car": {
+    "signs": [
+    "A"
+    ],
+    "side": "right"
+    },
+    "timezones": [
+    "UTC+01:00"
+    ],
+    "continents": [
+    "Europe"
+    ],
+    "flags": {
+    "png": "https://flagcdn.com/w320/at.png",
+    "svg": "https://flagcdn.com/at.svg",
+    "alt": "The flag of Austria is composed of three equal horizontal bands of red, white and red."
+    },
+    "coatOfArms": {
+    "png": "https://mainfacts.com/media/images/coats_of_arms/at.png",
+    "svg": "https://mainfacts.com/media/images/coats_of_arms/at.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+    "latlng": [
+    48.2,
+    16.37
+    ]
+    },
+    "postalCode": {
+    "format": "####",
+    "regex": "^(\\d{4})$"
+    }
+    },
+    {
+    "name": {
+    "common": "Greece",
+    "official": "Hellenic Republic",
+    "nativeName": {
+    "ell": {
+    "official": "Ελληνική Δημοκρατία",
+    "common": "Ελλάδα"
+    }
+    }
+    },
+    "tld": [
+    ".gr"
+    ],
+    "cca2": "GR",
+    "ccn3": "300",
+    "cca3": "GRC",
+    "cioc": "GRE",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "currencies": {
+    "EUR": {
+    "name": "Euro",
+    "symbol": "€"
+    }
+    },
+    "idd": {
+    "root": "+3",
+    "suffixes": [
+    "0"
+    ]
+    },
+    "capital": [
+    "Athens"
+    ],
+    "altSpellings": [
+    "GR",
+    "Elláda",
+    "Hellenic Republic",
+    "Ελληνική Δημοκρατία"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "languages": {
+    "ell": "Greek"
+    },
+    "translations": {
+    "ara": {
+    "official": "الجمهورية الهيلينية",
+    "common": "اليونان"
+    },
+    "bre": {
+    "official": "Republik Hellenek",
+    "common": "Gres"
+    },
+    "ces": {
+    "official": "Řecká republika",
+    "common": "Řecko"
+    },
+    "cym": {
+    "official": "Hellenic Republic",
+    "common": "Greece"
+    },
+    "deu": {
+    "official": "Hellenische Republik",
+    "common": "Griechenland"
+    },
+    "est": {
+    "official": "Kreeka Vabariik",
+    "common": "Kreeka"
+    },
+    "fin": {
+    "official": "Helleenien tasavalta",
+    "common": "Kreikka"
+    },
+    "fra": {
+    "official": "République hellénique",
+    "common": "Grèce"
+    },
+    "hrv": {
+    "official": "Helenska Republika",
+    "common": "Grčka"
+    },
+    "hun": {
+    "official": "Görög Köztársaság",
+    "common": "Görögország"
+    },
+    "ita": {
+    "official": "Repubblica ellenica",
+    "common": "Grecia"
+    },
+    "jpn": {
+    "official": "ギリシャ共和国",
+    "common": "ギリシャ"
+    },
+    "kor": {
+    "official": "그리스 공화국",
+    "common": "그리스"
+    },
+    "nld": {
+    "official": "Helleense Republiek",
+    "common": "Griekenland"
+    },
+    "per": {
+    "official": "جمهوری یونان",
+    "common": "یونان"
+    },
+    "pol": {
+    "official": "Republika Grecka",
+    "common": "Grecja"
+    },
+    "por": {
+    "official": "República Helénica",
+    "common": "Grécia"
+    },
+    "rus": {
+    "official": "Греческая Республика",
+    "common": "Греция"
+    },
+    "slk": {
+    "official": "Grécka republika",
+    "common": "Greécko"
+    },
+    "spa": {
+    "official": "República Helénica",
+    "common": "Grecia"
+    },
+    "srp": {
+    "official": "Хеленска Република",
+    "common": "Грчка"
+    },
+    "swe": {
+    "official": "Republiken Grekland",
+    "common": "Grekland"
+    },
+    "tur": {
+    "official": "Helen Cumhuriyeti",
+    "common": "Yunanistan"
+    },
+    "urd": {
+    "official": "جمہوریہ ہیلینیہ",
+    "common": "یونان"
+    },
+    "zho": {
+    "official": "希腊共和国",
+    "common": "希腊"
+    }
+    },
+    "latlng": [
+    39,
+    22
+    ],
+    "landlocked": false,
+    "borders": [
+    "ALB",
+    "BGR",
+    "TUR",
+    "MKD"
+    ],
+    "area": 131990,
+    "demonyms": {
+    "eng": {
+    "f": "Greek",
+    "m": "Greek"
+    },
+    "fra": {
+    "f": "Grecque",
+    "m": "Grec"
+    }
+    },
+    "flag": "🇬🇷",
+    "maps": {
+    "googleMaps": "https://goo.gl/maps/LHGcAvuRyD2iKECC6",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/192307"
+    },
+    "population": 10715549,
+    "gini": {
+    "2018": 32.9
+    },
+    "fifa": "GRE",
+    "car": {
+    "signs": [
+    "GR"
+    ],
+    "side": "right"
+    },
+    "timezones": [
+    "UTC+02:00"
+    ],
+    "continents": [
+    "Europe"
+    ],
+    "flags": {
+    "png": "https://flagcdn.com/w320/gr.png",
+    "svg": "https://flagcdn.com/gr.svg",
+    "alt": "The flag of Greece is composed of nine equal horizontal bands of blue alternating with white. A blue square bearing a white cross is superimposed in the canton."
+    },
+    "coatOfArms": {
+    "png": "https://mainfacts.com/media/images/coats_of_arms/gr.png",
+    "svg": "https://mainfacts.com/media/images/coats_of_arms/gr.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+    "latlng": [
+    37.98,
+    23.73
+    ]
+    },
+    "postalCode": {
+    "format": "### ##",
+    "regex": "^(\\d{5})$"
+    }
+    },
+    {
+    "name": {
+    "common": "Botswana",
+    "official": "Republic of Botswana",
+    "nativeName": {
+    "eng": {
+    "official": "Republic of Botswana",
+    "common": "Botswana"
+    },
+    "tsn": {
+    "official": "Lefatshe la Botswana",
+    "common": "Botswana"
+    }
+    }
+    },
+    "tld": [
+    ".bw"
+    ],
+    "cca2": "BW",
+    "ccn3": "072",
+    "cca3": "BWA",
+    "cioc": "BOT",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "currencies": {
+    "BWP": {
+    "name": "Botswana pula",
+    "symbol": "P"
+    }
+    },
+    "idd": {
+    "root": "+2",
+    "suffixes": [
+    "67"
+    ]
+    },
+    "capital": [
+    "Gaborone"
+    ],
+    "altSpellings": [
+    "BW",
+    "Republic of Botswana",
+    "Lefatshe la Botswana"
+    ],
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "languages": {
+    "eng": "English",
+    "tsn": "Tswana"
+    },
+    "translations": {
+    "ara": {
+    "official": "جمهورية بوتسوانا",
+    "common": "بوتسوانا"
+    },
+    "bre": {
+    "official": "Republik Botswana",
+    "common": "Botswana"
+    },
+    "ces": {
+    "official": "Botswanská republika",
+    "common": "Botswana"
+    },
+    "cym": {
+    "official": "Republic of Botswana",
+    "common": "Botswana"
+    },
+    "deu": {
+    "official": "Republik Botsuana",
+    "common": "Botswana"
+    },
+    "est": {
+    "official": "Botswana Vabariik",
+    "common": "Botswana"
+    },
+    "fin": {
+    "official": "Botswanan tasavalta",
+    "common": "Botswana"
+    },
+    "fra": {
+    "official": "République du Botswana",
+    "common": "Botswana"
+    },
+    "hrv": {
+    "official": "Republika Bocvana",
+    "common": "Bocvana"
+    },
+    "hun": {
+    "official": "Botswanai Köztársaság",
+    "common": "Botswana"
+    },
+    "ita": {
+    "official": "Repubblica del Botswana",
+    "common": "Botswana"
+    },
+    "jpn": {
+    "official": "ボツワナ共和国",
+    "common": "ボツワナ"
+    },
+    "kor": {
+    "official": "보츠와나 공화국",
+    "common": "보츠와나"
+    },
+    "nld": {
+    "official": "Republiek Botswana",
+    "common": "Botswana"
+    },
+    "per": {
+    "official": "جمهوری بوتسوانا",
+    "common": "بوتسوانا"
+    },
+    "pol": {
+    "official": "Republika Botswany",
+    "common": "Botswana"
+    },
+    "por": {
+    "official": "República do Botswana",
+    "common": "Botswana"
+    },
+    "rus": {
+    "official": "Республика Ботсвана",
+    "common": "Ботсвана"
+    },
+    "slk": {
+    "official": "Botswanská republika",
+    "common": "Botswana"
+    },
+    "spa": {
+    "official": "República de Botswana",
+    "common": "Botswana"
+    },
+    "srp": {
+    "official": "Република Боцвана",
+    "common": "Боцвана"
+    },
+    "swe": {
+    "official": "Republiken Botswana",
+    "common": "Botswana"
+    },
+    "tur": {
+    "official": "Botsvana Cumhuriyeti",
+    "common": "Botsvana"
+    },
+    "urd": {
+    "official": "جمہوریہ بوٹسوانا",
+    "common": "بوٹسوانا"
+    },
+    "zho": {
+    "official": "博茨瓦纳共和国",
+    "common": "博茨瓦纳"
+    }
+    },
+    "latlng": [
+    -22,
+    24
+    ],
+    "landlocked": true,
+    "borders": [
+    "NAM",
+    "ZAF",
+    "ZMB",
+    "ZWE"
+    ],
+    "area": 582000,
+    "demonyms": {
+    "eng": {
+    "f": "Motswana",
+    "m": "Motswana"
+    },
+    "fra": {
+    "f": "Botswanaise",
+    "m": "Botswanais"
+    }
+    },
+    "flag": "🇧🇼",
+    "maps": {
+    "googleMaps": "https://goo.gl/maps/E364KeLy6N4JwxwQ8",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/1889339"
+    },
+    "population": 2351625,
+    "gini": {
+    "2015": 53.3
+    },
+    "fifa": "BOT",
+    "car": {
+    "signs": [
+    "BW"
+    ],
+    "side": "left"
+    },
+    "timezones": [
+    "UTC+02:00"
+    ],
+    "continents": [
+    "Africa"
+    ],
+    "flags": {
+    "png": "https://flagcdn.com/w320/bw.png",
+    "svg": "https://flagcdn.com/bw.svg",
+    "alt": "The flag of Botswana has a light blue field with a white-edged black horizontal band across its center."
+    },
+    "coatOfArms": {
+    "png": "https://mainfacts.com/media/images/coats_of_arms/bw.png",
+    "svg": "https://mainfacts.com/media/images/coats_of_arms/bw.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+    "latlng": [
+    -24.63,
+    25.9
+    ]
+    }
+    },
+    {
+    "name": {
+    "common": "Uruguay",
+    "official": "Oriental Republic of Uruguay",
+    "nativeName": {
+    "spa": {
+    "official": "República Oriental del Uruguay",
+    "common": "Uruguay"
+    }
+    }
+    },
+    "tld": [
+    ".uy"
+    ],
+    "cca2": "UY",
+    "ccn3": "858",
+    "cca3": "URY",
+    "cioc": "URU",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "currencies": {
+    "UYU": {
+    "name": "Uruguayan peso",
+    "symbol": "$"
+    }
+    },
+    "idd": {
+    "root": "+5",
+    "suffixes": [
+    "98"
+    ]
+    },
+    "capital": [
+    "Montevideo"
+    ],
+    "altSpellings": [
+    "UY",
+    "Oriental Republic of Uruguay",
+    "República Oriental del Uruguay"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "languages": {
+    "spa": "Spanish"
+    },
+    "translations": {
+    "ara": {
+    "official": "جمهورية الأوروغواي الشرقية",
+    "common": "الأوروغواي"
+    },
+    "bre": {
+    "official": "Republik Reter Uruguay",
+    "common": "Uruguay"
+    },
+    "ces": {
+    "official": "Uruguayská východní republika",
+    "common": "Uruguay"
+    },
+    "cym": {
+    "official": "Oriental Republic of Uruguay",
+    "common": "Uruguay"
+    },
+    "deu": {
+    "official": "Republik Östlich des Uruguay",
+    "common": "Uruguay"
+    },
+    "est": {
+    "official": "Uruguay Idavabariik",
+    "common": "Uruguay"
+    },
+    "fin": {
+    "official": "Uruguayn itäinen tasavalta",
+    "common": "Uruguay"
+    },
+    "fra": {
+    "official": "République orientale de l'Uruguay",
+    "common": "Uruguay"
+    },
+    "hrv": {
+    "official": "Orijentalna Republika Urugvaj",
+    "common": "Urugvaj"
+    },
+    "hun": {
+    "official": "Uruguayi Keleti Köztársaság",
+    "common": "Uruguay"
+    },
+    "ita": {
+    "official": "Repubblica Orientale dell'Uruguay",
+    "common": "Uruguay"
+    },
+    "jpn": {
+    "official": "ウルグアイ東方共和国",
+    "common": "ウルグアイ"
+    },
+    "kor": {
+    "official": "우루과이 동방 공화국",
+    "common": "우루과이"
+    },
+    "nld": {
+    "official": "Oosterse Republiek Uruguay",
+    "common": "Uruguay"
+    },
+    "per": {
+    "official": "جمهوری اروگوئه",
+    "common": "اروگوئه"
+    },
+    "pol": {
+    "official": "Wschodnia Republika Urugwaju",
+    "common": "Urugwaj"
+    },
+    "por": {
+    "official": "República Oriental do Uruguai",
+    "common": "Uruguai"
+    },
+    "rus": {
+    "official": "Восточной Республики Уругвай",
+    "common": "Уругвай"
+    },
+    "slk": {
+    "official": "Uruguajská východná republika",
+    "common": "Uruguaj"
+    },
+    "spa": {
+    "official": "República Oriental del Uruguay",
+    "common": "Uruguay"
+    },
+    "srp": {
+    "official": "Источна Република Уругвај",
+    "common": "Уругвај"
+    },
+    "swe": {
+    "official": "Republiken Uruguay",
+    "common": "Uruguay"
+    },
+    "tur": {
+    "official": "Uruguay Doğu Cumhuriyeti",
+    "common": "Uruguay"
+    },
+    "urd": {
+    "official": "جمہوریہ شرقیہ یوراگوئے",
+    "common": "یوراگوئے"
+    },
+    "zho": {
+    "official": "乌拉圭东岸共和国",
+    "common": "乌拉圭"
+    }
+    },
+    "latlng": [
+    -33,
+    -56
+    ],
+    "landlocked": false,
+    "borders": [
+    "ARG",
+    "BRA"
+    ],
+    "area": 181034,
+    "demonyms": {
+    "eng": {
+    "f": "Uruguayan",
+    "m": "Uruguayan"
+    },
+    "fra": {
+    "f": "Uruguayenne",
+    "m": "Uruguayen"
+    }
+    },
+    "flag": "🇺🇾",
+    "maps": {
+    "googleMaps": "https://goo.gl/maps/tiQ9Baekb1jQtDSD9",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/287072"
+    },
+    "population": 3473727,
+    "gini": {
+    "2019": 39.7
+    },
+    "fifa": "URU",
+    "car": {
+    "signs": [
+    "ROU"
+    ],
+    "side": "right"
+    },
+    "timezones": [
+    "UTC-03:00"
+    ],
+    "continents": [
+    "South America"
+    ],
+    "flags": {
+    "png": "https://flagcdn.com/w320/uy.png",
+    "svg": "https://flagcdn.com/uy.svg",
+    "alt": "The flag of Uruguay is composed of nine equal horizontal bands of white alternating with blue, with a white square superimposed in the canton. In the white square is a yellow sun bearing a human face — the Sun of May — from which sixteen rays extend. The sun's rays alternate between triangular and wavy."
+    },
+    "coatOfArms": {
+    "png": "https://mainfacts.com/media/images/coats_of_arms/uy.png",
+    "svg": "https://mainfacts.com/media/images/coats_of_arms/uy.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+    "latlng": [
+    -34.85,
+    -56.17
+    ]
+    },
+    "postalCode": {
+    "format": "#####",
+    "regex": "^(\\d{5})$"
+    }
+    },
+    {
+    "name": {
+    "common": "Colombia",
+    "official": "Republic of Colombia",
+    "nativeName": {
+    "spa": {
+    "official": "República de Colombia",
+    "common": "Colombia"
+    }
+    }
+    },
+    "tld": [
+    ".co"
+    ],
+    "cca2": "CO",
+    "ccn3": "170",
+    "cca3": "COL",
+    "cioc": "COL",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "currencies": {
+    "COP": {
+    "name": "Colombian peso",
+    "symbol": "$"
+    }
+    },
+    "idd": {
+    "root": "+5",
+    "suffixes": [
+    "7"
+    ]
+    },
+    "capital": [
+    "Bogotá"
+    ],
+    "altSpellings": [
+    "CO",
+    "Republic of Colombia",
+    "República de Colombia"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "languages": {
+    "spa": "Spanish"
+    },
+    "translations": {
+    "ara": {
+    "official": "جمهورية كولومبيا",
+    "common": "كولومبيا"
+    },
+    "bre": {
+    "official": "Republik Kolombia",
+    "common": "Kolombia"
+    },
+    "ces": {
+    "official": "Kolumbijská republika",
+    "common": "Kolumbie"
+    },
+    "cym": {
+    "official": "Gweriniaeth Colombia",
+    "common": "Colombia"
+    },
+    "deu": {
+    "official": "Republik Kolumbien",
+    "common": "Kolumbien"
+    },
+    "est": {
+    "official": "Colombia Vabariik",
+    "common": "Colombia"
+    },
+    "fin": {
+    "official": "Kolumbian tasavalta",
+    "common": "Kolumbia"
+    },
+    "fra": {
+    "official": "République de Colombie",
+    "common": "Colombie"
+    },
+    "hrv": {
+    "official": "Republika Kolumbija",
+    "common": "Kolumbija"
+    },
+    "hun": {
+    "official": "Kolumbiai Köztársaság",
+    "common": "Kolumbia"
+    },
+    "ita": {
+    "official": "Repubblica di Colombia",
+    "common": "Colombia"
+    },
+    "jpn": {
+    "official": "コロンビア共和国",
+    "common": "コロンビア"
+    },
+    "kor": {
+    "official": "콜롬비아 공화국",
+    "common": "콜롬비아"
+    },
+    "nld": {
+    "official": "Republiek Colombia",
+    "common": "Colombia"
+    },
+    "per": {
+    "official": "جمهوری کلمبیا",
+    "common": "کلمبیا"
+    },
+    "pol": {
+    "official": "Republika Kolumbii",
+    "common": "Kolumbia"
+    },
+    "por": {
+    "official": "República da Colômbia",
+    "common": "Colômbia"
+    },
+    "rus": {
+    "official": "Республика Колумбия",
+    "common": "Колумбия"
+    },
+    "slk": {
+    "official": "Kolumbijská republika",
+    "common": "Kolumbia"
+    },
+    "spa": {
+    "official": "República de Colombia",
+    "common": "Colombia"
+    },
+    "srp": {
+    "official": "Република Колумбија",
+    "common": "Колумбија"
+    },
+    "swe": {
+    "official": "Republiken Colombia",
+    "common": "Colombia"
+    },
+    "tur": {
+    "official": "Kolombiya Cumhuriyeti",
+    "common": "Kolombiya"
+    },
+    "urd": {
+    "official": "جمہوریہ کولمبیا",
+    "common": "کولمبیا"
+    },
+    "zho": {
+    "official": "哥伦比亚共和国",
+    "common": "哥伦比亚"
+    }
+    },
+    "latlng": [
+    4,
+    -72
+    ],
+    "landlocked": false,
+    "borders": [
+    "BRA",
+    "ECU",
+    "PAN",
+    "PER",
+    "VEN"
+    ],
+    "area": 1141748,
+    "demonyms": {
+    "eng": {
+    "f": "Colombian",
+    "m": "Colombian"
+    },
+    "fra": {
+    "f": "Colombienne",
+    "m": "Colombien"
+    }
+    },
+    "flag": "🇨🇴",
+    "maps": {
+    "googleMaps": "https://goo.gl/maps/zix9qNFX69E9yZ2M6",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/120027"
+    },
+    "population": 50882884,
+    "gini": {
+    "2019": 51.3
+    },
+    "fifa": "COL",
+    "car": {
+    "signs": [
+    "CO"
+    ],
+    "side": "right"
+    },
+    "timezones": [
+    "UTC-05:00"
+    ],
+    "continents": [
+    "South America"
+    ],
+    "flags": {
+    "png": "https://flagcdn.com/w320/co.png",
+    "svg": "https://flagcdn.com/co.svg",
+    "alt": "The flag of Colombia is composed of three horizontal bands of yellow, blue and red, with the yellow band twice the height of the other two bands."
+    },
+    "coatOfArms": {
+    "png": "https://mainfacts.com/media/images/coats_of_arms/co.png",
+    "svg": "https://mainfacts.com/media/images/coats_of_arms/co.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+    "latlng": [
+    4.71,
+    -74.07
+    ]
+    }
+    },
+    {
+    "name": {
+    "common": "Portugal",
+    "official": "Portuguese Republic",
+    "nativeName": {
+    "por": {
+    "official": "República português",
+    "common": "Portugal"
+    }
+    }
+    },
+    "tld": [
+    ".pt"
+    ],
+    "cca2": "PT",
+    "ccn3": "620",
+    "cca3": "PRT",
+    "cioc": "POR",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "currencies": {
+    "EUR": {
+    "name": "Euro",
+    "symbol": "€"
+    }
+    },
+    "idd": {
+    "root": "+3",
+    "suffixes": [
+    "51"
+    ]
+    },
+    "capital": [
+    "Lisbon"
+    ],
+    "altSpellings": [
+    "PT",
+    "Portuguesa",
+    "Portuguese Republic",
+    "República Portuguesa"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "languages": {
+    "por": "Portuguese"
+    },
+    "translations": {
+    "ara": {
+    "official": "الجمهورية البرتغالية",
+    "common": "البرتغال"
+    },
+    "bre": {
+    "official": "Republik Portugalat",
+    "common": "Portugal"
+    },
+    "ces": {
+    "official": "Portugalská republika",
+    "common": "Portugalsko"
+    },
+    "cym": {
+    "official": "Portuguese Republic",
+    "common": "Portugal"
+    },
+    "deu": {
+    "official": "Portugiesische Republik",
+    "common": "Portugal"
+    },
+    "est": {
+    "official": "Portugali Vabariik",
+    "common": "Portugal"
+    },
+    "fin": {
+    "official": "Portugalin tasavalta",
+    "common": "Portugali"
+    },
+    "fra": {
+    "official": "République portugaise",
+    "common": "Portugal"
+    },
+    "hrv": {
+    "official": "Portugalska Republika",
+    "common": "Portugal"
+    },
+    "hun": {
+    "official": "Portugál Köztársaság",
+    "common": "Portugália"
+    },
+    "ita": {
+    "official": "Repubblica portoghese",
+    "common": "Portogallo"
+    },
+    "jpn": {
+    "official": "ポルトガル共和国",
+    "common": "ポルトガル"
+    },
+    "kor": {
+    "official": "포르투갈 공화국",
+    "common": "포르투갈"
+    },
+    "nld": {
+    "official": "Portugese Republiek",
+    "common": "Portugal"
+    },
+    "per": {
+    "official": "جمهوری پرتغال",
+    "common": "پرتغال"
+    },
+    "pol": {
+    "official": "Republika Portugalska",
+    "common": "Portugalia"
+    },
+    "por": {
+    "official": "República português",
+    "common": "Portugal"
+    },
+    "rus": {
+    "official": "Португальская Республика",
+    "common": "Португалия"
+    },
+    "slk": {
+    "official": "Portugalská republika",
+    "common": "Portugalsko"
+    },
+    "spa": {
+    "official": "República Portuguesa",
+    "common": "Portugal"
+    },
+    "srp": {
+    "official": "Португалска Република",
+    "common": "Португал"
+    },
+    "swe": {
+    "official": "Republiken Portugal",
+    "common": "Portugal"
+    },
+    "tur": {
+    "official": "Portekiz Cumhuriyeti",
+    "common": "Portekiz"
+    },
+    "urd": {
+    "official": "جمہوریہ پرتگال",
+    "common": "پرتگال"
+    },
+    "zho": {
+    "official": "葡萄牙共和国",
+    "common": "葡萄牙"
+    }
+    },
+    "latlng": [
+    39.5,
+    -8
+    ],
+    "landlocked": false,
+    "borders": [
+    "ESP"
+    ],
+    "area": 92090,
+    "demonyms": {
+    "eng": {
+    "f": "Portuguese",
+    "m": "Portuguese"
+    },
+    "fra": {
+    "f": "Portugaise",
+    "m": "Portugais"
+    }
+    },
+    "flag": "🇵🇹",
+    "maps": {
+    "googleMaps": "https://goo.gl/maps/BaTBSyc4GWMmbAKB8",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/295480"
+    },
+    "population": 10305564,
+    "gini": {
+    "2018": 33.5
+    },
+    "fifa": "POR",
+    "car": {
+    "signs": [
+    "P"
+    ],
+    "side": "right"
+    },
+    "timezones": [
+    "UTC-01:00",
+    "UTC"
+    ],
+    "continents": [
+    "Europe"
+    ],
+    "flags": {
+    "png": "https://flagcdn.com/w320/pt.png",
+    "svg": "https://flagcdn.com/pt.svg",
+    "alt": "The flag of Portugal is composed of two vertical bands of green and red in the ratio of 2:3, with the coat of arms of Portugal centered over the two-color boundary."
+    },
+    "coatOfArms": {
+    "png": "https://mainfacts.com/media/images/coats_of_arms/pt.png",
+    "svg": "https://mainfacts.com/media/images/coats_of_arms/pt.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+    "latlng": [
+    38.72,
+    -9.13
+    ]
+    },
+    "postalCode": {
+    "format": "####-###",
+    "regex": "^(\\d{7})$"
+    }
+    }
+    ]
