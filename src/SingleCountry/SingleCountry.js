@@ -67,6 +67,7 @@ function SingleCountry({setError}) {
                 </div>
                 <div className='data-style-div'>
                     <div className='main-data-container'>
+                        <p className='graphic-title'>General Information</p>
                         <p className='data-details'>Common Name: {countryData.name?.common || 'No Data Available'}</p>
                         <p className='data-details'>Native Name: {countryData.name?.nativeName?.[nativeLanguageCode]?.official || 'No Data Available'}</p>
                         <p className='data-details'>Capital: {countryData.capital || 'No Data Available'}</p>
@@ -76,6 +77,7 @@ function SingleCountry({setError}) {
                         <p className='data-details'>Cars drive on the {countryData.car?.side || 'No Data Available'} side of the road.</p>
                     </div>
                     <div className='graphical-data-container'>
+                        <p className='graphic-title'>Geographical Information</p>
                         <p className='data-details'>Region: {countryData.region || 'No Data Available'}</p>
                         <p className='data-details'>Subregion: {countryData.subregion || 'No Data Available'}</p>
                         <p className='data-details'>Continent: {countryData.continents || 'No Data Available'}</p>
