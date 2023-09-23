@@ -47,6 +47,12 @@ Cypress.Commands.add('austriaCheck', () => {
     cy.get('.google-map-link').should('contain', 'View Location in Google Maps')
 })
 
-// Cypress.Commands.add('errorCheck', () => {
+Cypress.Commands.add('searchCountryCheck', (country, countryCode, imgSRC) => {
+    cy.get('#search').type(country);
+    cy.get(countryCode).should('exist')
+    cy.get('.preview-image').should('have.attr', 'src', imgSRC)
+    cy.get('.preview-card-name').should('contain', country)
+    cy.get('#search').clear()
+})
 
-// })
+// 'https://flagcdn.com/w320/pt.png'

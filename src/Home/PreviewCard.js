@@ -6,7 +6,7 @@ function PreviewCard({name, flag, id, alt}) {
     return (
         <Link to={`/${id}`} className='preview-card-link'>
             <div id={id} className="preview-card">
-                <img alt={alt}  src={flag}></img>
+                <img className='preview-image' alt={alt}  src={flag}></img>
                 <p className='preview-card-name'>{name}</p>
             </div>
         </Link>
