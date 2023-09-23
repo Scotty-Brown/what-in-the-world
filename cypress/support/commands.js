@@ -54,5 +54,3 @@ Cypress.Commands.add('searchCountryCheck', (country, countryCode, imgSRC) => {
     cy.get('.preview-card-name').should('contain', country)
     cy.get('#search').clear()
 })
-
-// 'https://flagcdn.com/w320/pt.png'
