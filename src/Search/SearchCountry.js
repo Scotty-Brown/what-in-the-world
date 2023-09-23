@@ -1,4 +1,5 @@
 import './SearchCountry.css'
+import PropTypes from 'prop-types'
 
 function Search({setSearchInput}) {
 
@@ -21,3 +22,7 @@ function Search({setSearchInput}) {
 }
 
 export default Search
+
+Search.propTypes = {
+    setSearchInput: PropTypes.func.isRequired,
+}

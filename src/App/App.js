@@ -5,7 +5,6 @@ import AllCountries from '../AllCountries/AllCountriesContainer';
 import SingleCountry from '../SingleCountry/SingleCountry';
 import ErrorCard from '../Error/Error';
 import Search from '../Search/SearchCountry';
-import { NavLink } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import { fetchSimple } from '../apiCalls';
 import { Route, Routes, useLocation  } from 'react-router-dom';

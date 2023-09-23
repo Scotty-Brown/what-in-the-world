@@ -6,8 +6,6 @@
     margin-top: 100px;
     border-top: 10px solid #00000070;;
     border-bottom: 10px solid #00000070;;
-    margin-right: 3em;
-    margin-left: 3em;
     padding-top: 3em;
     padding-bottom: 3em;
     background-color: #44606d7d;
@@ -49,4 +47,33 @@ img {
 .learn-more:hover {
     transform: scale(1.1);
     box-shadow: 0px 0px 5px 5px #1b9cd8;
+}
+
+@media screen and (max-width: 650px) {
+
+    .highlight-container {
+        margin-top: 25px;
+        margin-right: 0px;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img {
+        width: 20em;
+        align-items: center;
+    }
+
+    .highlight-location {
+        text-align: center;
+        font-size: 30px;
+        
+    }
+
+    .location-link {
+        margin: 0;
+        align-items: center;
+    }
+
 }

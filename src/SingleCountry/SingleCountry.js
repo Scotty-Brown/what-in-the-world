@@ -51,8 +51,6 @@ function SingleCountry({setError}) {
         } 
     }
 
-    
-
     return (
         <div className='country-details-container'>
         {countryData && borderCountries && (

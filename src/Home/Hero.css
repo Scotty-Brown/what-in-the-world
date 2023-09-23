@@ -4,8 +4,6 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    margin-right: 3em;
-    margin-left: 3em;
     border-top: 10px solid #00000070;;
     border-bottom: 10px solid #00000070;;
     background-color: #44606d7d;
@@ -67,3 +65,42 @@
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
   }
+
+
+@media screen and (max-width: 650px) {
+
+    .hero-container {
+        margin-top: 150px;
+        margin-right: 0px;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-title {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .discover, .learn, .grow {
+        font-size: 15px;
+    }
+
+    .hero-statement-globe {
+        display: flex;
+        flex-direction: column;
+        margin-right: 0;
+    }
+    .hero-globe {
+        font-size: 50px;
+        animation: spin 20s linear infinite;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .hero-statement {
+        font-size: 15px;
+    }
+
+}
+
